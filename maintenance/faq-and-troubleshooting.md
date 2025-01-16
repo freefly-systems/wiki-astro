@@ -10,6 +10,7 @@
 | Cannot record video using the Sony a7R-IV, or "unable to write to card, check card speed" | [Install a faster SD card into the camera](https://freefly.gitbook.io/astro-public/astro/payloads/astro-mapping-payload/operating-handbook/normal-operation#video-workflow) |
 | Transfer mission from PC to Herelink                                                      | Upload to Astro using PC, download from Astro using Herelink                                                                                                                |
 | Can't connect laptop version of AMC to Astro                                              | Change the [UDP settings](https://freefly.gitbook.io/astro-public/astro/ecosystem/components/pilot-handsets#hotspot)                                                        |
+| Gimbal is limp with camera on                                                             | [Make sure that your Astro and Gimbal are on compatible firmware](../other-user-manuals/freefly-payloads/workflows-maintenance-updates/gimbal-firmware.md#gimbal-baud-rate) |
 
 
 
