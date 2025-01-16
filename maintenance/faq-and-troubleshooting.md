@@ -1,0 +1,45 @@
+# FAQ & Troubleshooting
+
+## Known Issues and Solutions
+
+| Issue                                                                                     | Solution                                                                                                                                                                    |
+| ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Battery cells out of balance                                                              | Leave on the charger (under supervision) for about 8 hours                                                                                                                  |
+| Cannot control gimbal                                                                     | [Update Astro and Herelink firmware](https://freefly.gitbook.io/astro-public/astro/maintenance-manual/software)                                                             |
+| Astro drifts up/down while hovering                                                       | [Calibrate accelerometer](https://freefly.gitbook.io/astro-public/astro/maintenance-manual/calibration-and-tuning#sensor-calibration)                                       |
+| Cannot record video using the Sony a7R-IV, or "unable to write to card, check card speed" | [Install a faster SD card into the camera](https://freefly.gitbook.io/astro-public/astro/payloads/astro-mapping-payload/operating-handbook/normal-operation#video-workflow) |
+| Transfer mission from PC to Herelink                                                      | Upload to Astro using PC, download from Astro using Herelink                                                                                                                |
+| Can't connect laptop version of AMC to Astro                                              | Change the [UDP settings](https://freefly.gitbook.io/astro-public/astro/ecosystem/components/pilot-handsets#hotspot)                                                        |
+
+
+
+
+
+
+
+
+
+## FAQ
+
+| Question                             | Answer                                                                                                                                                                                                                                                                                                            |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Is there a compatible LiDAR sensor?  | <p>Yes! Several LiDAR payloads are available using our Smart Dovetail quick release or an adaptor:</p><p>-Emesent Hovermap</p><p>-GreenValley International X3C</p><p>-YellowScan Mapper, Mapper +, and Ultra</p><p>-Phoenix LiDAR Recon-A and Recon-XT</p><p>-Inertial Labs RESEPI</p><p>-ROCK Robotic R3PRO</p> |
+| Is there a thermal sensor for Astro? | Yes, see the Freefly Wiris Pro payload in our [store here](https://store.freeflysystems.com/products/wiris-pro-payload).                                                                                                                                                                                          |
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Advanced Troubleshooting
+
+For in-depth problem-solving, you can check our [Troubleshooting Tree](https://docs.google.com/spreadsheets/d/1DXkk0BmRx9qLbjpBt2KgKYFOQhEGUTcyyQB6rOmb4ac/edit#gid=528435697) or [Astro Support page](https://freeflysystems.com/support/astro-support) for solutions to specific questions or error codes.&#x20;
+
+If you need more help or can't find what you're looking for, please [contact us](https://freeflysystems.com/contact)!
