@@ -18,7 +18,7 @@ By default, the aircraft's yaw control is unaffected by the camera's zoom level;
 
 For even more control, the global yaw rate of Astro can also be adjusted if desired. The default global yaw rate of Astro is 75 degrees/second.&#x20;
 
-* The max yaw rate can be adjusted by going to Advanced Mode (tap the Auterion logo in the upper left-hand corner seven times). Then click on the Auterion logo again and click through Vehicle Setup -> Parameter -> MPC\_MAN\_Y\_MAX. The units are in degrees/second.&#x20;
+* The max yaw rate can be adjusted by going to Advanced Mode (tap the AMC logo in the upper left-hand corner seven times). Then click on the Auterion logo again and click through Vehicle Setup -> Parameter -> MPC\_MAN\_Y\_MAX. The units are in degrees/second.&#x20;
 
 {% hint style="danger" %}
 Be careful when changing parameters, and double-check what you are doing. Changing the wrong parameter can cause unexpected behavior or even a crash!
