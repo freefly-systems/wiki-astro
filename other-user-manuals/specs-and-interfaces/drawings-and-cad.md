@@ -31,3 +31,17 @@ Chassis Mounting Points: Assembly Airframe Complete (mm)
 | **Folded Height**                       | 178        |
 | **Landing Gear Footprint (square)**     | 330        |
 
+
+
+## Generic Antenna Mount for Astro
+
+If you want to mount an antenna for 3rd party integrations (such as an external GPS), you can find a 3D printable file here for a standard SMA cable mount:&#x20;
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-24 121152.png" alt="" width="375"><figcaption><p>This mounts to Astro's upper chassis with QTY 2 M3 x 8 SHCS screws</p></figcaption></figure>
+
+{% file src="../../.gitbook/assets/432-00086 Antenna Mount Astro REV_01.STEP" %}
+
+{% file src="../../.gitbook/assets/432-00086 Antenna Mount Astro REV_01.STL" %}
+
+
+
