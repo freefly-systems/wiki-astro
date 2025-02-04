@@ -8,6 +8,10 @@ Hovermap ST-X enables assisted (AL1) and autonomous (AL2) flights for Astro in c
 This wiki page is a high level overview of operating Hovermap on Astro. Please read Emesent's full documentation on how Hovermap works before conducting a flight in assisted or autonomous mode.&#x20;
 {% endhint %}
 
+{% hint style="warning" %}
+Assisted and Autonomous functions are not available on aircraft with Doodle radios (Astro Blue/NDAA). We are working to enable this in the future.&#x20;
+{% endhint %}
+
 In particular, pilots should understand:&#x20;
 
 * [How Hovermap works ](https://4999118.hs-sites.com/en/knowledge/understanding-hovermap)
