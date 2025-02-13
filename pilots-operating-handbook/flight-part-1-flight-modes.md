@@ -142,7 +142,7 @@ In most cases, RTL mode will travel to the predetermined RTL altitude, travel ov
 {% endtab %}
 
 {% tab title="Takeoff" %}
-Takeoff Mode arms the aircraft, automatically climbs to the Takeoff Altitude, and enters [Hold Mode](https://docs.px4.io/master/en/flight_modes/hold.html) (a.k.a. loiter or hover).
+Takeoff Mode arms the aircraft, automatically climbs to the Takeoff Altitude, and enters [Hold Mode](https://docs.px4.io/v1.12/en/flight_modes/hold.html) (a.k.a. loiter or hover).
 
 Takeoff Mode can be engaged via the button in the AMC app Fly view, optionally changing Takeoff Altitude via the slider, then holding/sliding to confirm. Takeoff Mode can also be engaged during a mission, for example as the first command.
 

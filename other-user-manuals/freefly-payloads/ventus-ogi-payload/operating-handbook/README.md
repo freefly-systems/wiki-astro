@@ -25,7 +25,3 @@
 {% content-ref url="downloading-formatting-media.md" %}
 [downloading-formatting-media.md](downloading-formatting-media.md)
 {% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}

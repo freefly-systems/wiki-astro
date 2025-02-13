@@ -78,8 +78,6 @@ Hard-mounting to Astro chassis requires standoffs ([M3 male-female, 8mm length](
 
 ## Astro Vibration Isolator
 
-The [**Astro Vibration Isolator**](https://store.freeflysystems.com/collections/astro/products/vibration-isolator-with-smart-dovetail) is designed to be adaptable. By default, it comes preconfigured to work best with the [**Astro Mapping Payload**](https://store.freeflysystems.com/collections/astro/products/mapping-payload), and it ships with 4 x 30A durometer isolators. Our engineering team decided this is the best configuration based on real-world testing.
+The [**Astro Vibration Isolator**](https://store.freeflysystems.com/products/astro-isolator) is designed to be adaptable. By default, it comes preconfigured to work best with the [**Astro Mapping Payload**](https://store.freeflysystems.com/products/lr1-payload), and it ships with 4 x 30A durometer isolators. Our engineering team decided this is the best configuration based on real-world testing.
 
-Isolator plates allow up to 8 isolators. Different durometers to the Astro [**store**](https://store.freeflysystems.com/collections/astro), which include 30A, 40A, and 50A options.
-
-Here is a [**ulog**](https://logs.px4.io/plot_app?log=af4fbfe6-5235-4698-ae4b-ff6a6115c004) of a typical flight with a 1.5kg payload as an example of aircraft vibration.&#x20;
+Isolator plates allow up to 8 isolators. Different durometers to the Astro [**store**](https://store.freeflysystems.com/collections/astro/products/astro-vibration-isolator-set), which include 30A, 40A, and 50A options.

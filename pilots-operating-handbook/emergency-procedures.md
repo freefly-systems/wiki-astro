@@ -186,5 +186,5 @@ If the meaning of an error or warning is not clear, please [contact Freefly Supp
 | Mission                | If a mission starts with the takeoff command, and the aircraft is disarmed, the aircraft will arm itself when the mission is initiated. |
 
 {% hint style="info" %}
-Arming via the AMC app in Manual Mode is not recommended. In Manual Mode, the aircraft should be armed while the throttle stick is held at the minimum position. This is difficult to achieve while using an app GIU.
+Arming via the AMC app in Manual Mode is not recommended. In Manual Mode, the aircraft should be armed while the throttle stick is held at the minimum position. This is difficult to achieve while using an app GUI.
 {% endhint %}
