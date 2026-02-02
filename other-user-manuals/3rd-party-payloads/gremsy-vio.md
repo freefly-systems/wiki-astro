@@ -1,6 +1,6 @@
 # Gremsy Vio
 
-<figure><img src="../../.gitbook/assets/thumbnail_image001.jpg" alt=""><figcaption></figcaption></figure>
+{% embed url="https://youtu.be/qlNFSy5Uq8w?si=elTYNxOr2jybPMs_" %}
 
 The Gremsy VIO with the Smart Dovetail adaptor is compatible with the Pixhawk Payload Bus standard and can be integrated to work on Astro.
 
