@@ -110,7 +110,7 @@ Connector: JST GH 6-pin
 
 ### **Bind Button**&#x20;
 
-Not active or user configurable. This button is included for future expansion.
+The Bind Button is used in the binding/pairing process for Astros equipped with a Doodle Labs radio. See [Doodle Binding / Pairing Guide](https://docs.freeflysystems.com/ecosystem/controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module/doodle-binding-pairing) for more information.
 
 ### Battery V
 
