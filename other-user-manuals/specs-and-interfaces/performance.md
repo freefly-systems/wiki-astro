@@ -66,7 +66,7 @@
 
 
 
-#### High Altitude Mode
+### High Altitude Mode
 
 * **What it is**: A Pilot Pro App feature that enables safe Astro Max operation at high altitudes (up to 15,000 ft / 4,500 m). Astro Max may feel sluggish or have reduced control authority when flying in mountainous terrain or high-density-altitude conditions. This mode increases the motor PWM limits to maintain adequate thrust-to-weight ratio for reliable flight performance.
 *   **How to use it:**
