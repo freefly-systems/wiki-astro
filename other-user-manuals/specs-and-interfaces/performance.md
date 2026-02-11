@@ -52,10 +52,7 @@
   * Yellow: Approved usage; performance limited. Imbalanced payload and wind may cause crashes / altitude loss.
   * Red: Prohibited usage.
 * Caution: T/W ratio between 1.4 and 1.6 should be flown with caution. These are indicated in yellow in the charts. Imbalanced payload/aircraft in combination with wind may cause crashes. Astro prioritizes its attitude and will lose altitude in these scenarios.
-* High Altitude Mode:&#x20;
-  * There are a set of parameters that can be enabled on Astro Max for high altitude flights.&#x20;
-  * This is not available on original Astro.
-  * Caution: This mode is only approved when flying in position mode with default tuning.
+* High Altitude Mode: There are a set of parameters that can be enabled on Astro Max for high altitude flights. (This is not available on original Astro). Read more below.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-07-03 at 1.53.59 PM.png" alt=""><figcaption><p>Astro (Original F45)</p></figcaption></figure>
 
@@ -66,6 +63,34 @@
 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-07-03 at 2.08.35 PM.png" alt=""><figcaption><p>Astro Max (High Altitude Parameters Enabled)</p></figcaption></figure>
+
+
+
+#### High Altitude Mode
+
+* **What it is**: A Pilot Pro App feature that enables safe Astro Max operation at high altitudes (up to 15,000 ft / 4,500 m). Astro Max may feel sluggish or have reduced control authority when flying in mountainous terrain or high-density-altitude conditions. This mode increases the motor PWM limits to maintain adequate thrust-to-weight ratio for reliable flight performance.
+*   **How to use it:**
+
+    1\. Open the Pilot Pro App and connect to Astro Max (not available on original Astro with F45 motors).
+
+    2\. Go to High Altitude Mode screen.
+
+    3\. Toggle High Altitude Mode ON before flight at high altitude.
+
+    4\. The app displays a real-time thrust-to-weight estimator to confirm adequate performance margins
+
+    5\. Toggle OFF when returning to normal altitudes.
+
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/high alt mode.jpg" alt="" width="480"><figcaption></figcaption></figure></div>
+
+* **Requirements:**
+  * Astro Max (not base Astro F45)
+  * Pilot Pro App v2.3 or later
+  * Astro firmware v2.0.19+
+  * Fly in Position Mode with default tuning
+* **⚠️ Caution:**&#x20;
+  * This mode is only approved for Position Mode flight. Do not use in Manual or Altitude mode at low elevations, as increased PWM at sea level could stress the power system during aggressive maneuvers.
+  * This mode is only approved when flying in position mode with default tuning.
 
 
 
