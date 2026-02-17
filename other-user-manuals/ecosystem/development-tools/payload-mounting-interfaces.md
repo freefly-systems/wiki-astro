@@ -16,7 +16,7 @@ Smart Dovetail is not hotswap compatible. To avoid damaging Astro or your sensor
 
 ![](<../../../.gitbook/assets/SOLIDWORKS Premium 2020 SP0.1 - \[870-00770 Assembl_3.png>)
 
-This model contains the entire smart dovetail assembly. You are welcome an encouraged to use this model to Integrate Smart Dovetail into your payload! This also serves as the reference design for the Pixhawk Payload Bus Quick Release.
+This model contains the entire smart dovetail assembly. You are welcome and encouraged to use this model to Integrate Smart Dovetail into your payload! This also serves as the reference design for the Pixhawk Payload Bus Quick Release.
 
 {% file src="../../../.gitbook/assets/Assembly Smart Dovetail Quick Release 6-16-2025.STEP" %}
 
