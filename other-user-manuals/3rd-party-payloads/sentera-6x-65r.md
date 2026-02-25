@@ -6,7 +6,7 @@
 
 Astro can fly both the Sentera 6X and 65R!
 
-Both payloads are compatible with Astro using the Smart Dovetail connector, which sends power and capture commands to the cameras in flight.&#x20;
+Both payloads are compatible with Astro using the Smart Dovetail connector, which sends power and capture commands to the cameras in flight. The 65R can also transmit live video.&#x20;
 
 ## Setup
 
@@ -21,15 +21,22 @@ Live video for 65R and other features are available with a firmware update! V4.1
 {% hint style="info" %}
 [65R installation for Astro](https://sentera.gitbook.io/65r-sensor-user-guide/65r-sensor/installation/freefly-astro)
 
-[6X Installation for Astro](https://sentera.gitbook.io/6x-multispectral-sensor-user-guide/6x-multispectral-sensor/installation/freefly-astro)
+[6X Installation for Astro](https://support.senterasensors.com/home/6x-series-sensors-user-guide/6x-series-sensors/installation/freefly/astro)
 {% endhint %}
 
 * Install the payload in the Smart Dovetail mount
-* Install the GPS mast and cabling securely&#x20;
+* Set MAV\_2\_MODE to Normal and reboot Astro
+* Install the light meter/GPS mast and cabling securely (6X only)
+
+{% hint style="info" icon="triangle-exclamation" %}
+The high-efficiency extended props on Astro Max interfere with the mast for 6X. See Sentera's support page for a workaround &#x20;
+{% endhint %}
 
 {% hint style="danger" %}
 Make sure any cables are constrained and can't get caught in the propellers
 {% endhint %}
+
+* Configure the [live video on Astro](https://support.senterasensors.com/65r-sensor-user-guide/65r-sensor/installation/freefly/freefly-compatibility-settings/video-stream-setup) (65R only)&#x20;
 
 ## Mission Planning
 
@@ -38,19 +45,17 @@ As of Astro firmware v1.5 or later, the 6X and 65R camera settings are selectabl
 See Sentera's wiki for the recommended flight settings:&#x20;
 
 * [65R User Guide](https://sentera.gitbook.io/65r-sensor-user-guide)
-* [6X User Guide](https://sentera.gitbook.io/6x-multispectral-sensor-user-guide)
+* [6X User Guide](https://support.senterasensors.com/home/6x-series-sensors-user-guide)
 
 {% hint style="info" %}
 **When planning a mission in AMC** - Be sure to set the Camera Action field to 'Survey' and at the bottom of the settings page. This will set the camera to be triggered to take photos during the mission
 {% endhint %}
 
-
-
 ## Post Processing
 
 [65R Data Offload Process](https://sentera.gitbook.io/65r-sensor-user-guide/65r-sensor/data-offload/offload-process)
 
-[6X Data Offload Process](https://sentera.gitbook.io/6x-multispectral-sensor-user-guide/6x-multispectral-sensor/data-offload/offload-process)
+[6X Data Offload Process](https://support.senterasensors.com/home/6x-series-sensors-user-guide/6x-series-sensors/data-offload)
 
 {% hint style="success" %}
 Use **192.168.42.1** for the IP address
@@ -104,10 +109,3 @@ You MUST plug in the USB-C to pull data, data is not stored on the SD card on th
 <figure><img src="../../.gitbook/assets/image (168).png" alt=""><figcaption><p>Spectral bands of the Sentera 6X Thermal</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
-
-## More Information
-
-Additional information can be found on Sentera's website:
-
-* [Sentera 6X ](https://sentera.com/products/fieldcapture/sensors/6x/)
-* [Sentera 65R](https://sentera.com/products/fieldcapture/sensors/65r/)
