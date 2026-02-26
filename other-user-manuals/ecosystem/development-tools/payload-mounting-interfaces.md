@@ -38,7 +38,7 @@ Pinout is defined in the [Pixhawk Payload Bus](https://github.com/pixhawk/Pixhaw
 
 #### Plate ZPD
 
-![Payload Adaptor ZPD](<../../../.gitbook/assets/Smart Dovetail Dev Kit Pinout.jpg>)
+![Payload Adaptor ZPD](<../../../.gitbook/assets/Payloud Adapter ZPD Pinout.jpg>)
 
 Smart Dovetail Plate offers a [ZPDR-26V-S JST](https://www.digikey.com/en/products/detail/jst-sales-america-inc/ZPDR-26V-S/2472569?s=N4IgTCBcDaIFoAUAiAlAtGAbANTQZRAF0BfIA) connector for payloads. The pinout nominally matches the [Astro Payload Connector](/broken/spaces/-LaNHxABbg20hfA0zTDQ/pages/-MfEjX4WUyEGwZsOoeL4#payload).
 
@@ -50,6 +50,10 @@ The mating connector needed to build a payload cable is [ZPDR-26V-S](https://www
 
 {% hint style="info" %}
 If you need camera trigger or capture feedback on the Payload Adaptor ZPD connect, remove the PCBA from the housing and connect a 0 ohm resistor to R5 for trigger, and to R2 for the capture pin. Pins 24 (capture) and 26 (trigger) can then be used. If you need help configuring Astro to use these pins for your payload, reach out to our [support team](https://freeflysystems.com/contact).
+{% endhint %}
+
+{% hint style="info" %}
+UART TX and RX are labled as the TX and RX pins on the Astro itself. ie, a device utilizing these will need to connect it's own TX to pin 6, and it's own RX to pin 4.&#x20;
 {% endhint %}
 
 ### Available Products
