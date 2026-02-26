@@ -53,7 +53,7 @@ If you need camera trigger or capture feedback on the Payload Adaptor ZPD connec
 {% endhint %}
 
 {% hint style="info" %}
-UART TX and RX are labled as the TX and RX pins on the Astro itself. ie, a device utilizing these will need to connect it's own TX to pin 6, and it's own RX to pin 4.&#x20;
+UART TX and RX are labled as the TX and RX pins on the Astro itself. ie, a device utilizing these will need to connect it's own TX to pin 6, and it's own RX to pin 4. This UART operates at 3.3v logic
 {% endhint %}
 
 ### Available Products
