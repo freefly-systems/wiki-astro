@@ -23,7 +23,7 @@ After recalibrating any sensor, make sure to restart Astro before flying. Some c
 
 ## Magnetic Interference
 
-In the event of magnetic interference preventing the aircraft from taking off, follow these [pro-tips](https://freefly.gitbook.io/astro-public/astro/pilots-operating-handbook/limitations#magnetic-interference).
+In the event of magnetic interference preventing the aircraft from taking off, follow these [Pro Tips](../../pilots-operating-handbook/limitations/).
 
 ## Tuning
 
