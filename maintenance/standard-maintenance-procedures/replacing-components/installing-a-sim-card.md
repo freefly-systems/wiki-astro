@@ -41,7 +41,9 @@ You only need to setup the SIM card once! The Cellular menu on AMC will reset on
 ### SIM Card Options
 
 {% hint style="info" %}
-Customers have reported that these SIM cards have worked with Astro on the specified cell phone network. Please keep in mind that these claims have not been verified or tested by Freefly. For more information, see the [**LTE** ](https://freefly.gitbook.io/astro-public/astro/pilots-operating-handbook/network-and-connectivity#lte)section of our Network and Connectivity page.&#x20;
+Customers have reported that these SIM cards have worked with Astro on the specified cell phone network. If you do not see your preferred provider, please contact them with your Astro's IMEI number (found on the [vehicle identity](https://docs.freeflysystems.com/astro/pilots-operating-handbook/essential-software/network-and-connectivity#configure-and-enable-disable)).
+
+&#x20;Please keep in mind that these claims have not been verified or tested by Freefly. For more information, see the [**LTE** ](https://freefly.gitbook.io/astro-public/astro/pilots-operating-handbook/network-and-connectivity#lte)section of our Network and Connectivity page.&#x20;
 {% endhint %}
 
 | SIM Card | Location      |
@@ -52,3 +54,6 @@ Customers have reported that these SIM cards have worked with Astro on the speci
 {% hint style="info" %}
 Astro is compatible with the following LTE bands: B2, B4, B5, B12, B13, B14, B25, B26, B66, B71
 {% endhint %}
+
+
+
