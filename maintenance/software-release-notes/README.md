@@ -20,6 +20,7 @@
   * Freefly Updater: v3.1.1
   * LR1 Camera Firmware (recommended): v3.0
 * **Notes** (Going from Astro v2.1.x to v2.2.6)
+  * **Read more about the highlights** [**here**](astro-software-v2.0-whats-new.md)**!**
   * **Flight**
     * **New:** Mission uploads are now logged into the ulog for customer support and debugging.
     * **New:** Option to disable the emergency battery emergency land behavior.
@@ -36,9 +37,9 @@
     * **New:** LR1 and A7R RAW and RAW+JPEG image format support. RAW images save to the camera SD card only.
     * **New:** Gremsy VIO is now plug-and-play. Swapping between an LR1 and a VIO no longer requires parameter changes. VIO must be configured correctly or purchased from Freefly. If using VIO geotagging, the MAVLink mode must be changed, which removes the blue configuration of the aircraft.
     * **New:** Boson Wildfire Contrast Preset, pre-configured for wildfire detection with advanced contrast and isotherm defaults.
-    * **New:** Simplified Isotherm views. "Temp Above" and "Temp Below" each expose a single isotherm band, making it easier to highlight the hottest or coldest objects.
-    * **New:** Advanced Contrast Settings are now in a separate dropdown. Switching Contrast Preset resets Advanced Contrast Settings to the new preset's values.
-    * **Fix:** Boson radiometric TIFF captures are significantly faster. Refactored to use the Boson video endpoint via gstreamer instead of slow serial readout. Capture interrupts the video feed for less than one second.
+    * **New:** Simplified Isotherm views for Boson. "Temp Above" and "Temp Below" each expose a single isotherm band, making it easier to highlight the hottest or coldest objects.
+    * **New:** Advanced Contrast Settings for Boson are now in a separate dropdown. Switching Contrast Preset resets Advanced Contrast Settings to the new preset's values.
+    * **Fix:** Boson radiometric TIFF captures are now significantly faster.
     * **Fix (AMC):** Flir Boson+ 640 added to available camera profiles.
     * **New:** LR1 APS-C crop support in video mode. Requires LR1 camera firmware newer than v1.0.0.
     * **New:** LR1 additional video recording formats, including XAVC S-I 4K.
@@ -60,7 +61,7 @@
 
 ### Latest Versions
 
-<table data-full-width="true"><thead><tr><th width="221">Component</th><th width="248">Current Compatible Versions</th><th width="245">How To Update</th></tr></thead><tbody><tr><td><strong>Astro</strong></td><td></td><td></td></tr><tr><td>Software</td><td><strong>2.2</strong>.6</td><td><a href="software.md#updating-astro-firmware">Astro Firmware</a></td></tr><tr><td>SL8 Battery</td><td>2.1, 1.10, or 1.9</td><td><a href="https://docs.freeflysystems.com/ecosystem/power/superlight-batteries/firmware-updates">Battery Firmware</a></td></tr><tr><td><strong>Pilot Pro</strong></td><td></td><td></td></tr><tr><td>Firmware</td><td><strong>2.2</strong>.0</td><td><a href="https://freefly.gitbook.io/pilot-pro-public/maintenance/software-and-firmware-updates#how-to-update-pilot-pro-firmware">Update</a> through the Pilot Pro App</td></tr><tr><td>App</td><td><strong>2.7</strong>.4</td><td>Check the <a href="https://freefly.gitbook.io/pilot-pro-public/maintenance/software-and-firmware-updates#app-updates">"updates"</a> section in Updater app</td></tr><tr><td>AMC App</td><td><strong>1.36</strong>.24</td><td>Check the <a href="https://freefly.gitbook.io/pilot-pro-public/maintenance/software-and-firmware-updates#app-updates">"updates"</a> section in Updater app. Desktop versions can be downloaded <a href="https://freeflysystems.com/support/astro-support">here</a>.</td></tr><tr><td>Herelink GCS (Legacy)</td><td></td><td></td></tr><tr><td>OEM</td><td>FFARU01231123</td><td><a href="../../other-user-manuals/ecosystem/components/pilot-handsets/herelink-controller-maintenance/updating-herelink-software.md">Herelink Firmware</a></td></tr><tr><td>AMC App</td><td><strong>1.36</strong>.24</td><td>Check the updates section in the Updater app</td></tr><tr><td><strong>Payloads</strong></td><td></td><td></td></tr><tr><td>Freefly Payloads (LR1, A7R4, OGI, Wiris Pro)</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/freefly-payloads/workflows-maintenance-updates/gimbal-firmware">See payloads page</a></td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/payloads/lr1-payload/gimbal-and-camera-software">Gimbal Firmware</a></td></tr><tr><td>Hovermap ST/ST-X</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/3rd-party-payloads/hovermap-st-x-lidar/hovermap-setup-on-astro">Latest supported version</a></td><td><a href="https://knowledge.emesent.com/hovermap">Update Hovermap</a></td></tr><tr><td>Sentera 6X and 65R</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/3rd-party-payloads/sentera-6x-65r">Latest supported version</a></td><td><p><a href="https://sentera.gitbook.io/65r-sensor-user-guide">65R User Guide</a></p><p><a href="https://sentera.gitbook.io/6x-multispectral-sensor-user-guide">6X User Guide</a></p></td></tr><tr><td>Gremsy VIO</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/3rd-party-payloads/gremsy-vio">Latest supported version</a></td><td><a href="https://docs.gremsy.com/payloads/vio">VIO Wiki</a></td></tr><tr><td>Gremsy Pixy PE</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/3rd-party-payloads/gremsy-pixy-pe">Latest supported version</a></td><td><a href="https://docs.gremsy.com/pixy-and-mio/pixy-u">Update Pixy</a></td></tr><tr><td>Flux Lidar</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/freefly-payloads/flux-lidar-payload/flux-software">Latest supported version</a></td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/freefly-payloads/flux-lidar-payload/flux-software">Update Flux software</a></td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="221">Component</th><th width="248">Current Compatible Versions</th><th width="245">How To Update</th></tr></thead><tbody><tr><td><strong>Astro</strong></td><td></td><td></td></tr><tr><td>Software</td><td><strong>2.2</strong>.6</td><td><a href="software.md#updating-astro-firmware">Astro Firmware</a></td></tr><tr><td>SL8 Battery</td><td>2.1, 1.10, or 1.9</td><td><a href="https://docs.freeflysystems.com/ecosystem/power/superlight-batteries/firmware-updates">Battery Firmware</a></td></tr><tr><td><strong>Pilot Pro</strong></td><td></td><td></td></tr><tr><td>Pilot Pro Firmware</td><td><strong>2.2</strong>.0</td><td><a href="https://freefly.gitbook.io/pilot-pro-public/maintenance/software-and-firmware-updates#how-to-update-pilot-pro-firmware">Update</a> through the Pilot Pro App</td></tr><tr><td>Pilot Pro App</td><td><strong>2.7</strong>.4</td><td>Check the <a href="https://freefly.gitbook.io/pilot-pro-public/maintenance/software-and-firmware-updates#app-updates">"updates"</a> section in Updater app</td></tr><tr><td>AMC App</td><td><strong>1.36</strong>.24</td><td>Check the <a href="https://freefly.gitbook.io/pilot-pro-public/maintenance/software-and-firmware-updates#app-updates">"updates"</a> section in Updater app. Desktop versions can be downloaded <a href="https://freeflysystems.com/support/astro-support">here</a>.</td></tr><tr><td>Freefly Updater App</td><td>3.1.1</td><td>Check the <a href="https://freefly.gitbook.io/pilot-pro-public/maintenance/software-and-firmware-updates#app-updates">"updates"</a> section in Updater app</td></tr><tr><td><strong>Herelink GCS (Legacy)</strong></td><td></td><td></td></tr><tr><td>OEM</td><td>FFARU01231123</td><td><a href="../../other-user-manuals/ecosystem/components/pilot-handsets/herelink-controller-maintenance/updating-herelink-software.md">Herelink Firmware</a></td></tr><tr><td>AMC App</td><td><strong>1.36</strong>.24</td><td>Check the updates section in the Updater app</td></tr><tr><td><strong>Payloads</strong></td><td></td><td></td></tr><tr><td>Freefly Payloads (LR1, A7R4, OGI, Wiris Pro)</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/freefly-payloads/workflows-maintenance-updates/gimbal-firmware">See payloads page</a></td><td><a href="https://app.gitbook.com/s/WXREyAKYAeQJ4gfg2SPg/payloads/payload-maintenance/gimbal-firmware">Gimbal Firmware</a></td></tr><tr><td>Hovermap ST/ST-X</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/3rd-party-payloads/hovermap-st-x-lidar/hovermap-setup-on-astro">Latest supported version</a></td><td><a href="https://knowledge.emesent.com/hovermap">Update Hovermap</a></td></tr><tr><td>Sentera 6X and 65R</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/3rd-party-payloads/sentera-6x-65r">Latest supported version</a></td><td><p><a href="https://sentera.gitbook.io/65r-sensor-user-guide">65R User Guide</a></p><p><a href="https://sentera.gitbook.io/6x-multispectral-sensor-user-guide">6X User Guide</a></p></td></tr><tr><td>Gremsy VIO</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/3rd-party-payloads/gremsy-vio">Latest supported version</a></td><td><a href="https://docs.gremsy.com/payloads/vio">VIO Wiki</a></td></tr><tr><td>Gremsy Pixy PE</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/3rd-party-payloads/gremsy-pixy-pe">Latest supported version</a></td><td><a href="https://docs.gremsy.com/pixy-and-mio/pixy-u">Update Pixy</a></td></tr><tr><td>Flux Lidar</td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/freefly-payloads/flux-lidar-payload/flux-software">Latest supported version</a></td><td><a href="https://freefly.gitbook.io/astro-public/other-user-manuals/freefly-payloads/flux-lidar-payload/flux-software">Update Flux software</a></td></tr></tbody></table>
 
 ***
 
@@ -127,34 +128,32 @@
 * **Versions in this package**:
   * Astro Skynode: v2.0.19
   * AMC: 1.34.21
-*   **Notes**
-
-    Astro v1.9 -> v2.0
-
-    * **Operational Behavior Changes**
-      * **Astro now boots in Position Flight Mode** - In previous versions of Astro firmware, the aircraft would boot up in 'Pending' flight mode while waiting for the required GPS satellites and position accuracy metrics. With 2.0 Astro firmware, the aircraft now boots up in Position mode, but displays 'No valid position estimate' until the satellite counts and position accuracy metrics are met.
-      * **Astro can re-arm after using the kill switch -** In previous versions of Astro firmware, it was not possible to re-arm the aircraft after the kill switch was used without an aircraft reboot. With the 2.0 firmware release, it is now possible to reset the kill switch position and then re-arm Astro without a reboot of the aircraft. Make sure to update your pilot pro firmware to version 2.0 as well!
-    * **New: Gimbal Snap to 0, 45, 90 Degrees** - In AMC 1.34 under Controller > Joystick > Button Configuration, the following actions are now functional and can be mapped to buttons or switches on the GCS: Gimbal Center, Gimbal Pitch 45, Gimbal Pitch 90.
-    * **New: Gimbal Direct Control** - We've pulled in some code from our Movi Pro ecosystem to improve gimbal yaw smoothness for Freefly Payloads! In Astro 2.0 firmware when flying in Position Slow mode, the aircraft now follows the heading of the gimbal for more precise and cinematic shots. This feature is available for LR1/A7R4/Wiris Pro/OGI payloads. Info on configuring gimbal expo/window/smoothness is [here](https://freefly.gitbook.io/astro-public/other-user-manuals/freefly-payloads/workflows-maintenance-updates/precise-smooth-gimbal-control).
-    * **New: LR1/A7R4 Intervalometer mode** - This can be toggled under the LR1/A7R4 camera settings: Settings > Enable Interval Shooting, Set trigger interval, Press shutter button to start and stop. (If you are saving images to the USB stick, we recommend a minimum trigger interval of 2.0s or greater. If you need to go faster than this, set your storage mode to SD card).
-    * **New: Georeferenced PDF import in AMC** - In AMC 1.34, georeferenced PDF maps can now be imported and overlaid on the primary map.
-    * **New**: Astro’s base PX4 version has been upgraded from v1.13 to v1.15.
-    * **New**: Integrated Freefly Doodle FW v1.7 in Pilot Pro App. This allows updating v1.4 units to the latest. Additionally, any radio pair that is on v1.7 now benefits from faster pairing and channel changes.
-    * **New**: Enabled native screen mirroring in Pilot Pro from the tablet to an external display.
-    * **Fixes and Improvements:**
-      * Improved vertical accuracy in geotagged photos.
-      * Improved Thermal Module Temperature Display - New graphics overlay to clearly display the temperature readout when using spot metering.
-      * Added gimbal version compatibility checks in AMC.
-      * Improved GPS reliability
-        * Reduced GPS output rate to increase reliability.
-        * Enabled BeiDou.
-      * Wifi configuration
-        * Fixed a bug where sometimes the 'connect' button is greyed out.
-        * Nearby network names are now shown.
-      * Fixed an issue where Astro could unexpectedly move when transitioning from Manual --> Position mode
-      * Integrator notes:
-        * COM\_OBL\_ACT was removed/merged to COM\_OBL\_RC\_ACT.
-        * Added ability to disable IMU1 for CPU reduction.
+* **Notes (**&#x41;stro v1.9 -> v2.0
+  * **Read more about the highlights** [**here**](astro-software-v2.0-whats-new.md)**!**
+  * **Operational Behavior Changes**
+    * **Astro now boots in Position Flight Mode** - In previous versions of Astro firmware, the aircraft would boot up in 'Pending' flight mode while waiting for the required GPS satellites and position accuracy metrics. With 2.0 Astro firmware, the aircraft now boots up in Position mode, but displays 'No valid position estimate' until the satellite counts and position accuracy metrics are met.
+    * **Astro can re-arm after using the kill switch -** In previous versions of Astro firmware, it was not possible to re-arm the aircraft after the kill switch was used without an aircraft reboot. With the 2.0 firmware release, it is now possible to reset the kill switch position and then re-arm Astro without a reboot of the aircraft. Make sure to update your pilot pro firmware to version 2.0 as well!
+  * **New: Gimbal Snap to 0, 45, 90 Degrees** - In AMC 1.34 under Controller > Joystick > Button Configuration, the following actions are now functional and can be mapped to buttons or switches on the GCS: Gimbal Center, Gimbal Pitch 45, Gimbal Pitch 90.
+  * **New: Gimbal Direct Control** - We've pulled in some code from our Movi Pro ecosystem to improve gimbal yaw smoothness for Freefly Payloads! In Astro 2.0 firmware when flying in Position Slow mode, the aircraft now follows the heading of the gimbal for more precise and cinematic shots. This feature is available for LR1/A7R4/Wiris Pro/OGI payloads. Info on configuring gimbal expo/window/smoothness is [here](https://freefly.gitbook.io/astro-public/other-user-manuals/freefly-payloads/workflows-maintenance-updates/precise-smooth-gimbal-control).
+  * **New: LR1/A7R4 Intervalometer mode** - This can be toggled under the LR1/A7R4 camera settings: Settings > Enable Interval Shooting, Set trigger interval, Press shutter button to start and stop. (If you are saving images to the USB stick, we recommend a minimum trigger interval of 2.0s or greater. If you need to go faster than this, set your storage mode to SD card).
+  * **New: Georeferenced PDF import in AMC** - In AMC 1.34, georeferenced PDF maps can now be imported and overlaid on the primary map.
+  * **New**: Astro’s base PX4 version has been upgraded from v1.13 to v1.15.
+  * **New**: Integrated Freefly Doodle FW v1.7 in Pilot Pro App. This allows updating v1.4 units to the latest. Additionally, any radio pair that is on v1.7 now benefits from faster pairing and channel changes.
+  * **New**: Enabled native screen mirroring in Pilot Pro from the tablet to an external display.
+  * **Fixes and Improvements:**
+    * Improved vertical accuracy in geotagged photos.
+    * Improved Thermal Module Temperature Display - New graphics overlay to clearly display the temperature readout when using spot metering.
+    * Added gimbal version compatibility checks in AMC.
+    * Improved GPS reliability
+      * Reduced GPS output rate to increase reliability.
+      * Enabled BeiDou.
+    * Wifi configuration
+      * Fixed a bug where sometimes the 'connect' button is greyed out.
+      * Nearby network names are now shown.
+    * Fixed an issue where Astro could unexpectedly move when transitioning from Manual --> Position mode
+    * Integrator notes:
+      * COM\_OBL\_ACT was removed/merged to COM\_OBL\_RC\_ACT.
+      * Added ability to disable IMU1 for CPU reduction.
 * **Known Issues**
   * The time until the RTL indicator bar displayed at the top of the Fly view in AMC is sometimes inaccurate.
   * Changing some parameters require reboots, but the reboot prompt isn't displayed. It is best practice to always reboot after changing parameters.
@@ -203,7 +202,7 @@
   * Astro Skynode: v1.7.2
   * AMC: 1.32.7
 * **Notes**
-  * **Read more details** [**here**](astro-software-v1.7-whats-new.md)**!**
+  * **Read more about the highlights** [**here**](astro-software-v1.7-whats-new.md)
   * New: Integrated LR1 Thermal Module \[Boson 640R]. Includes spot metering and digital zoom up to 8x
   * New: Digital Zoom 1.0 to 4.0x digital zoom on LR1 and A7R4 Payloads for live preview and saved images/videos.
   * New: Tap to Focus for LR1 and A7R Payloads
@@ -332,7 +331,7 @@
 * **Versions in this package**:
   * Astro Skynode: v1.4.6
 * **Notes**
-  * **(Read more details** [**here**](astro-software-v1.4-whats-new.md)**)**
+  * **Read more about the highlights** [**here**](astro-software-v1.4-whats-new.md)
   * New: Pilot Pro Integration
   * New: Velocity Control (aka Slow Speed Mode)
   * Operational Behavior Changes
@@ -385,7 +384,7 @@
 
 **Download** [**here**](https://drive.google.com/file/d/1Qp3qI54sjc3dEn-yHZDAYMRWuPZuaeQ3/view)
 
-**Read more details** [**here**](astro-software-v1.2-whats-new.md)
+**Read more about the highlights** [**here**](astro-software-v1.2-whats-new.md)
 
 </details>
 

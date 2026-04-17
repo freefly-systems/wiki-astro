@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Astro Software v1.7 - What’s New
 
 &#x20;                                                                  [<mark style="color:red;">**|  UPDATE NOW**</mark>](software.md#updating-astro-firmware)  <mark style="color:red;">**|**</mark>

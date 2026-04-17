@@ -10,12 +10,17 @@ You can determine if Astro needs an update by following steps 2-4 below. The cur
 2. Connect Astro to your computer with a USB cable.
 3. Power on aircraft **with one battery** and wait about 15 seconds for aircraft to fully boot.
 4. Using a browser such as Chrome or Safari, open the aircraft's info/update page at [http://10.41.1.1](http://10.41.1.1) (internet connection is not needed).
-5. In the Update Auterion OS box, click Browse, and select the firmware file downloaded above.
+5. In the Update AuterionOS box, click Browse, and select the firmware file downloaded above.
 6. Click Update. (Should take about 10 minutes.)
 7. After the update completion message, verify that the webpage shows a "Release name" that matches the downloaded file and that all the motor LEDs are on.
 
-{% hint style="info" %}
-If the aircraft gives an error message, power cycle the aircraft and try again.&#x20;
+{% hint style="warning" %}
+**If your Astro firmware update fails:**
+
+1. Update the Pilot Pro App to v2.7 or later.
+2. Connect Pilot Pro to your Astro.
+3. Tap the **Fix Me** button in Pilot Pro. `App Menu > Vehicle Status Page`
+4. Retry the Astro firmware update.
 {% endhint %}
 
 {% hint style="warning" %}

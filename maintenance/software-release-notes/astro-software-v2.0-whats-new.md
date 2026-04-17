@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Astro Software v2.0 - What's New
 
 ***
@@ -38,8 +42,8 @@ We've pulled in some code from our Movi Pro ecosystem to improve gimbal yaw smoo
 * This feature is available for LR1/A7R4/Wiris Pro/OGI payloads&#x20;
 * Info on configuring gimbal expo/window/smoothness is here:
 
-{% content-ref url="../../other-user-manuals/freefly-payloads/workflows-maintenance-updates/precise-smooth-gimbal-control.md" %}
-[precise-smooth-gimbal-control.md](../../other-user-manuals/freefly-payloads/workflows-maintenance-updates/precise-smooth-gimbal-control.md)
+{% content-ref url="/broken/pages/Tx5AOY1nscytjj275fYy" %}
+[Broken link](/broken/pages/Tx5AOY1nscytjj275fYy)
 {% endcontent-ref %}
 
 ***
@@ -91,8 +95,8 @@ AMC will now check if the gimbal firmware version is too old.&#x20;
 
 You can update your gimbal firmware here:
 
-{% content-ref url="../../other-user-manuals/freefly-payloads/workflows-maintenance-updates/gimbal-firmware.md" %}
-[gimbal-firmware.md](../../other-user-manuals/freefly-payloads/workflows-maintenance-updates/gimbal-firmware.md)
+{% content-ref url="/broken/pages/pVipTw2ochvzRocZAv9l" %}
+[Broken link](/broken/pages/pVipTw2ochvzRocZAv9l)
 {% endcontent-ref %}
 
 ***

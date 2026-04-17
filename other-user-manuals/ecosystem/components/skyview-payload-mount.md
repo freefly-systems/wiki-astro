@@ -83,6 +83,6 @@ Be careful when operating in areas with partial GNSS obstruction, such as undern
 
 * For applications with very poor or no GPS, the Emesent Hovermap ST or ST-X payload can provide SLAM positioning and obstacle avoidance. Emesent is working on adding support for top mount on Astro
 
-{% content-ref url="../../3rd-party-payloads/hovermap-st-x-and-st-lidar/" %}
-[hovermap-st-x-and-st-lidar](../../3rd-party-payloads/hovermap-st-x-and-st-lidar/)
+{% content-ref url="/broken/pages/FctOb1FeOM5ZTf7WIvDb" %}
+[Broken link](/broken/pages/FctOb1FeOM5ZTf7WIvDb)
 {% endcontent-ref %}
