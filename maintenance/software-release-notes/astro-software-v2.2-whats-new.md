@@ -65,7 +65,7 @@ The VIO must be [configured correctly](https://app.gitbook.com/s/WXREyAKYAeQJ4gf
 {% endhint %}
 
 {% hint style="info" %}
-To use VIO geotagging, the aircraft must be switched to MAVLink mode, which removes the blue configuration of the aircraft.
+To use VIO geotagging, the aircraft must be [switched to MAVLink mode](https://docs.freeflysystems.com/ecosystem/payloads/third-party-payloads/gremsy-vio#astro-configuration), which removes the blue configuration of the aircraft.
 {% endhint %}
 
 
