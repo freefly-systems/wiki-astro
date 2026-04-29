@@ -20,7 +20,7 @@
   * Freefly Updater: v3.1.1
   * LR1 Camera Firmware (recommended): v3.0
 * **Notes** (Going from Astro v2.1.x to v2.2.6)
-  * **Read more about the highlights** [**here**](astro-software-v2.0-whats-new.md)**!**
+  * **Read more about the highlights** [**here**](astro-software-v2.2-whats-new.md)**!**
   * **Flight**
     * **New:** Mission uploads are now logged into the ulog for customer support and debugging.
     * **New:** Option to disable the emergency battery emergency land behavior.
