@@ -79,14 +79,14 @@ The USB C physical connection to the Astro for the initial registration is requi
 1. You should have received an Astro in a case and a separate shipment of Astro batteries (We have to ship separately due to Dangerous Goods shipping requirements.) The chargers are going to be located in the Astro travel case under the battery foam insert.
 2. Connect the Astro batteries to the charger and charge until complete.
 3. Plug in the Pilot Pro (or Herelink controller) and charge until complete.
-4. Check that the [Astro firmware](https://freefly.gitbook.io/astro-public/astro/maintenance-manual/software#updating-astro-firmware) and[ controller firmware](https://freefly.gitbook.io/pilot-pro-public/maintenance/software-and-firmware-updates#how-to-update-pilot-pro-firmware) are up to date.&#x20;
+4. Check that the [Astro firmware](https://freefly.gitbook.io/astro-public/astro/maintenance-manual/software#updating-astro-firmware) and[ controller firmware](maintenance/software-release-notes/) are up to date.&#x20;
 
 
 
 ## 5. Go Flying
 
 * While your batteries and controller charge, read the [Flight section of this wiki](pilots-operating-handbook/flight.md), and learn how to control Astro.
-* If you are getting started with the NDAA/Blue version of the Astro, make sure to read [Doodle radio notes ](https://freefly.gitbook.io/pilot-pro-public/operating-handbook/doodle-radio#channel-selection)
+* If you are getting started with the NDAA/Blue version of the Astro, make sure to read the Doodle radio notes in our [Pilot Pro docs](https://app.gitbook.com/s/WXREyAKYAeQJ4gfg2SPg/controller/pilot-pro/operating-handbook/radio-modules/doodle-labs-radio-module).
 * Watch the First Flight Guide instructional video below. For more training videos, please visit our [Freefly Astro Training Playlist](https://www.youtube.com/playlist?list=PLlKTld1e-W1wUvac10cbtM5Aru1su0QOO)
 
 {% embed url="https://www.youtube.com/watch?v=9X9ig3FDqzQ&list=PLlKTld1e-W1wUvac10cbtM5Aru1su0QOO&index=2" %}
