@@ -19,8 +19,10 @@ You can determine if Astro needs an update by following steps 2-4 below. The cur
 
 1. Update the Pilot Pro App to v2.7 or later.
 2. Connect Pilot Pro to your Astro.
-3. Tap the **Fix Me** button in Pilot Pro. `App Menu > Vehicle Status Page`
-4. Retry the Astro firmware update.
+3. Tap the **Fix Me** button in Pilot Pro, which will apply the _FW Updater Fix_. This is found in:\
+   &#x20;`App Menu > Vehicle Status Page`&#x20;
+4. If you have a Blue/NDAA Astro, you will need to disable Admin Protection on the 10.41.1.1/settings page before the _FW Updater Fix_ can apply. Admin Protection can be re-enabled after the Astro firmware update is successful
+5. Retry the Astro firmware update once the _FW Updater Fix_ has been applied.
 {% endhint %}
 
 {% hint style="warning" %}
