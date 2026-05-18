@@ -1,5 +1,13 @@
 # Astro Software v2.2 - What's New
 
+
+
+{% embed url="https://www.youtube.com/watch?v=SnKNH_42jXQ" %}
+
+
+
+***
+
 ### New: Doodle Radio Channel Scan
 
 The Doodle channel scan has been rewritten for more reliable channel scan results and selection.
@@ -88,4 +96,6 @@ To use VIO geotagging, the aircraft must be [switched to MAVLink mode](https://d
 
 ### How To Update Software?
 
-See [#latest-versions](./#latest-versions "mention")&#x20;
+Astro ->  [#latest-versions](./#latest-versions "mention")&#x20;
+
+Alta X Gen2 -> [Software Updates #Current Firmware Version](https://app.gitbook.com/s/mvvtTxCd0o4luBB04PQp/maintenance/software-updates#current-firmware-version "mention")
