@@ -31,6 +31,8 @@ The Doodle channel scan has been rewritten for more reliable channel scan result
 Unlike the Astro-side NTRIP app option, Pilot Pro does not auto-start NTRIP on boot. This is intentional, since corrections consume radio bandwidth and should be an explicit per-flight choice.
 {% endhint %}
 
+<a href="https://docs.freeflysystems.com/ecosystem/controller/pilot-pro/operating-handbook/ecosystem/rtk" class="button primary">Learn More</a>
+
 
 
 ***
