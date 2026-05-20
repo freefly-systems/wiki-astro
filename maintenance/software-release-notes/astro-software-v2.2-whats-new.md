@@ -47,10 +47,8 @@ Unlike the Astro-side NTRIP app option, Pilot Pro does not auto-start NTRIP on b
 * **Fix: Blurry Infinity Focus on Sigma 24mm lens v.03:** The payload driver now reads the lens firmware version and applies the correct focus offset for v.01, v.02, and v.03 lenses. Detection is automatic on LR1 and via EXIF on A7R.
 
 {% hint style="info" %}
-To use APS-C mode, [update your LR1 camera to firmware v3.0 or later.](https://www.sony.com/electronics/support/camcorders-and-video-cameras-interchangeable-lens-camcorders/ilx-lr1/downloads) LR1 cameras on firmware v1.0.0 do not reliably accept the APS-C command. Early-batch LR1s (unit shipped before October 2024) are most likely to be on v1.0.0.
+To use APS-C mode, [update your LR1 camera to firmware v3.0 or later.](https://docs.freeflysystems.com/ecosystem/payloads/payload-maintenance/payload-camera-firmware-update) LR1 cameras on firmware v1.0.0 do not reliably accept the APS-C command. Early-batch LR1s (unit shipped before October 2024) are most likely to be on v1.0.0.
 {% endhint %}
-
-
 
 ***
 
