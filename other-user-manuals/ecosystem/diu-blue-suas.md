@@ -46,13 +46,10 @@ Astro serves a webpage at https://10.41.1.1, allowing certain drone configuratio
 
 ### Logging
 
-Logging is set to "stealth mode" by default on the Blue Astro, and is disabled on the controller, and payloads. It is recommended that administrators enable all logging to assist with support requests to Freefly. Stealth logging can be disabled by changing the SDLOG\_NO\_POS\_DAT parameter to disabled.&#x20;
+Logging is set to "stealth mode" by default on the Blue Astro, and is disabled on the controller, and payloads. This breaks PPK processing, and flight logs will be missing crucial information for technical support. Stealth logging can be disabled by modifying some settings as shown below.&#x20;
 
-{% hint style="warning" %}
-When logging is set to stealth mode, Astro stops recording any positional data to logs and other places like image capture metadata. **It is important to note that this breaks mapping workflows that involve PPK processing.**
-
-\
-Admins can enable full logging on Astro by changing _**both**_ of the following settings:
+{% hint style="info" %}
+Auterion Suite Admins can enable full logging on Astro by changing _**both**_ of the following settings:
 
 * Connect Astro to PC with USB, login to https://10.41.1.1, go to settings, enable Cloud Services. This enables the log streaming service that is required.&#x20;
   * In the future we will make it a separate setting so they are not tied together.
