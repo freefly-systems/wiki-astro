@@ -54,9 +54,12 @@ When logging is set to stealth mode, Astro stops recording any positional data t
 \
 Admins can enable full logging on Astro by changing _**both**_ of the following settings:
 
-* Connect Astro to PC with USB, login to https://10.41.1.1, go to settings, enable Cloud Services (this feature also enables advanced features. in the future we will make it a separate setting so they are not tied together)
-* Go to AMC, then repeatedly tap on the AMC icon in the top-left-hand corner of the app. After tapping about 6 times, a popup menu will appear asking if you would like to switch to Advanced Mode. Then tap on the button again to open menu. Go to Advanced > Parameters, then search for SDLOG\_NO\_POS\_DAT. Then set it to disabled.&#x20;
-* Power cycle
+* Connect Astro to PC with USB, login to https://10.41.1.1, go to settings, enable Cloud Services. This enables the log streaming service that is required.&#x20;
+  * In the future we will make it a separate setting so they are not tied together.
+* Go to AMC, and switch to [Advanced Mode](https://docs.freeflysystems.com/astro/pilots-operating-handbook/essential-software/auterion-mission-control/amc-vehicle-setup/advanced-vehicle-setup).  Go to Advanced > Parameters, then change the following parameters:
+  * SDLOG\_NO\_POS\_DAT = Disabled.&#x20;
+  * GPS\_DUMP\_COMM = RTCM output (PPK)
+* Save the changes, and power cycle the Astro.
 {% endhint %}
 
 
