@@ -57,10 +57,9 @@ This is one of the simplest to miss and impact the range of the flight
 Both the Doodle and Herelink radio modules on Pilot Pro use two blade antennas that are omni directional. It is important to follow these basic guidelines:
 
 * Antennas should both point in the same direction.&#x20;
-* Antennas should point towards ground or sky
-* Minimize how much the antennas are getting blocked in close proximity. For instance, if you are using the Pilot Pro with the tablet in the open configuration, then pointing antennas towards ground instead of sky is usually better.
+* Antennas should point towards ground for best signal quality in most situations.
 
-<div><figure><img src="../../.gitbook/assets/Pilot Pro_Antenna Position_002.JPG" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Pilot Pro_Antenna Position_001.JPG" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../../.gitbook/assets/Pilot Pro_Antenna Position_001.JPG" alt="" width="375"><figcaption></figcaption></figure>
 
 #### **Herelink GCS (Legacy):**&#x20;
 
