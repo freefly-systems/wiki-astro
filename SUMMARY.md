@@ -30,14 +30,6 @@
 
 ## Maintenance
 
-* [FAQ & Troubleshooting](maintenance/faq-and-troubleshooting.md)
-* [Software Updates](maintenance/software-release-notes/README.md)
-  * [Updating Firmware](maintenance/software-release-notes/software.md)
-  * [Astro Software v2.2 - What's New](maintenance/software-release-notes/astro-software-v2.2-whats-new.md)
-  * [Astro Software v2.0 - What's New](maintenance/software-release-notes/astro-software-v2.0-whats-new.md)
-  * [Astro Software v1.7 - What’s New](maintenance/software-release-notes/astro-software-v1.7-whats-new.md)
-  * [Astro Software v1.4 - What’s New](maintenance/software-release-notes/astro-software-v1.4-whats-new.md)
-  * [Astro Software v1.2 - What’s New](maintenance/software-release-notes/astro-software-v1.2-whats-new.md)
 * [Standard Maintenance Procedures](maintenance/standard-maintenance-procedures/README.md)
   * [Getting Technical Support](maintenance/standard-maintenance-procedures/getting-technical-support.md)
   * [Periodic Maintenance](maintenance/standard-maintenance-procedures/periodic-maintenance.md)
@@ -46,10 +38,18 @@
     * [Installing a SIM Card](maintenance/standard-maintenance-procedures/replacing-components/installing-a-sim-card.md)
   * [Calibration and Tuning](maintenance/standard-maintenance-procedures/calibration-and-tuning.md)
   * [Controller / Radio Binding](maintenance/standard-maintenance-procedures/controller-radio-binding.md)
+* [Software Updates](maintenance/software-release-notes/README.md)
+  * [Updating Firmware](maintenance/software-release-notes/software.md)
+  * [Astro Software v2.2 - What's New](maintenance/software-release-notes/astro-software-v2.2-whats-new.md)
+  * [Astro Software v2.0 - What's New](maintenance/software-release-notes/astro-software-v2.0-whats-new.md)
+  * [Astro Software v1.7 - What’s New](maintenance/software-release-notes/astro-software-v1.7-whats-new.md)
+  * [Astro Software v1.4 - What’s New](maintenance/software-release-notes/astro-software-v1.4-whats-new.md)
+  * [Astro Software v1.2 - What’s New](maintenance/software-release-notes/astro-software-v1.2-whats-new.md)
+* [FAQ & Troubleshooting](maintenance/faq-and-troubleshooting.md)
 
 ## Other User Manuals
 
-* [ECOSYSTEM](other-user-manuals/ecosystem/README.md)
+* [Ecosystem](other-user-manuals/ecosystem/README.md)
   * [Components](other-user-manuals/ecosystem/components/README.md)
     * [Batteries](other-user-manuals/ecosystem/components/batteries.md)
     * [Pilot Pro Controller](other-user-manuals/ecosystem/components/pilot-pro-controller.md)
@@ -76,7 +76,7 @@
     * [4 - Post-Flight and Image Processing](other-user-manuals/ecosystem/esri-arcgis-flight-site-scan/4-post-flight-and-image-processing.md)
     * [Global Settings](other-user-manuals/ecosystem/esri-arcgis-flight-site-scan/global-settings.md)
   * [DroneDeploy](other-user-manuals/ecosystem/dronedeploy.md)
-* [SPECS AND INTERFACES](other-user-manuals/specs-and-interfaces/README.md)
+* [Specs and Interfaces](other-user-manuals/specs-and-interfaces/README.md)
   * [Technical Specs](other-user-manuals/specs-and-interfaces/technical-specs.md)
   * [Performance](other-user-manuals/specs-and-interfaces/performance.md)
   * [Drawings and CAD](other-user-manuals/specs-and-interfaces/drawings-and-cad.md)
