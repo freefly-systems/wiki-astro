@@ -15,3 +15,7 @@
 {% content-ref url="gnss-base-stations.md" %}
 [gnss-base-stations.md](gnss-base-stations.md)
 {% endcontent-ref %}
+
+{% content-ref url="../../../maintenance/standard-maintenance-procedures/replacing-components/replacing-propellers.md" %}
+[replacing-propellers.md](../../../maintenance/standard-maintenance-procedures/replacing-components/replacing-propellers.md)
+{% endcontent-ref %}
