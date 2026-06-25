@@ -77,32 +77,14 @@ If you want to mount an antenna for 3rd party integrations (such as an external 
 
 {% file src="../../.gitbook/assets/432-00086 Antenna Mount Astro REV_01.STL" %}
 
-### Astro Top Mount Dovetail w/ Isolator
-
-<figure><img src="../../.gitbook/assets/image (185).png" alt="" width="375"><figcaption></figcaption></figure>
-
-[Parasolid CAD file](https://www.dropbox.com/scl/fi/tf4dcsdv9mnstniz84bta/870-01073-Assembly-Mount-Top-Dovetail-Astro.x_t?rlkey=8lwzibn1cs46n0vanlirwaefr\&dl=0) (Use with newer versions of CAD software that support this file type)
-
-{% hint style="info" %}
-Note, this CAD file is positioned correctly against the top level Astro CAD model from the top of this page.
-{% endhint %}
-
-### Flux Dual GPS Antennae w/ Mounts
+### Flux GPS Antenna w/ Mount
 
 <figure><img src="../../.gitbook/assets/image (186).png" alt="" width="375"><figcaption></figcaption></figure>
 
-[Parasolid CAD file](https://www.dropbox.com/scl/fi/tf4dcsdv9mnstniz84bta/870-01073-Assembly-Mount-Top-Dovetail-Astro.x_t?rlkey=8lwzibn1cs46n0vanlirwaefr\&dl=0) (Use with newer versions of CAD software that support this file type)
-
-{% hint style="info" %}
-Note, this file contains only the Flux Dual GPS with their Astro-specific chassis mounts, positioned correctly against the top level Astro CAD model from the top of this page.
-{% endhint %}
+{% file src="../../.gitbook/assets/Flux GNSS Module and Astro Mount.STL" %}
 
 ### FPV System for Astro
 
 <figure><img src="../../.gitbook/assets/image (187).png" alt="" width="375"><figcaption></figcaption></figure>
 
-[Parasolid CAD file](https://www.dropbox.com/scl/fi/tf4dcsdv9mnstniz84bta/870-01073-Assembly-Mount-Top-Dovetail-Astro.x_t?rlkey=8lwzibn1cs46n0vanlirwaefr\&dl=0) (Use with newer versions of CAD software that support this file type)
-
-{% hint style="info" %}
-Note, this CAD file is positioned correctly against the top level Astro CAD model from the top of this page.
-{% endhint %}
+{% file src="../../.gitbook/assets/Astro FPV System.STL" %}
