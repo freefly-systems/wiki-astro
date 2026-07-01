@@ -28,11 +28,17 @@ Bench mode is not a substitute for the absolute safety of removing propellers.
 
 ## Motors, Motor Drives, and Propellers
 
-Astro features the F45 motor found on Alta 6 and 8 but with a larger 21 inch plastic prop. A larger prop was introduced to increase flight times given the lower nominal payload limit on Astro as compared to our larger drones.
+Astro is equipped with the Freefly F45 motors, originally with a 21" prop. A newer, high efficiency 22" prop replaced these.
 
-The Freefly-developed motor drive is known internally as the Astro100 drive and is the fastest response field oriented control drive that we have ever tested. This response time is critical to achieving precise flight characteristics even with large props. The Astro100 drive can accelerate and decelerate the prop much faster than the original F45 drive used on Alta aircraft.
+Astro Max is equipped with the Freefly 7010 motor, and use the 22" high efficiency props.&#x20;
 
 The props are 21" fiber reinforced plastic props which help lower vibration and and increase flight time.
+
+To learn more about the motors and replacing the props:
+
+{% content-ref url="../../maintenance/standard-maintenance-procedures/replacing-components/replacing-propellers.md" %}
+[replacing-propellers.md](../../maintenance/standard-maintenance-procedures/replacing-components/replacing-propellers.md)
+{% endcontent-ref %}
 
 ## Onboard Computer
 
@@ -50,13 +56,13 @@ This sensor is not appropriate for terrain following.
 | Motor Type                         |                        Freefly F45 |                       Freefly 7010 |
 | ---------------------------------- | ---------------------------------: | ---------------------------------: |
 | Number of Motors                   |                                  4 |                                  4 |
-| Motor Max Continuous Power         |                             350 W  |                              350 W |
+| Motor Max Continuous Power         |                              350 W |                              350 W |
 | Motor Max Instantaneous Peak Power |                              500 W |                              600 W |
 | Equivalent kV                      |                             420 kV |                             285 kV |
 | Electronic Speed Controller        | Freefly Silent-Drive Sine Wave ESC | Freefly Silent-Drive Sine Wave ESC |
 | Max RPM                            |                              3,500 |                              3,800 |
 
-## Propellers
+## 21" Propellers (Legacy)
 
 |                       |                                    |
 | --------------------- | ---------------------------------: |
@@ -76,17 +82,17 @@ Astro uses only [Freefly SuperLight Batteries](https://docs.freeflysystems.com/e
 
 ## Flight Controller
 
-|                            |                                                                    |
-| -------------------------- | ------------------------------------------------------------------ |
-| Flight Controller Hardware | Freefly Custom Designed Skynode                                    |
-| Flight Controller Software | Auterion Enterprise PX4 (custom for Astro)                         |
-| Mission Control Software   | Auterion Mission Control                                           |
-| Online Fleet Management    | Auterion Suite                                                     |
-| Flight Modes               | Manual, Altitude Hold, Position Hold, Return, Autonomous Mission,  |
-| Onboard Modules            | Cortex-A53 Computer, LTE                                           |
-| Connectivity               | Wifi, USB C, LTE (North America)                                   |
-| Supported Radios           | Herelink                                                           |
-| Supported GNSS             | L1/L2 bands for GPS, GLONASS, Beidou and Galileo                   |
+|                            |                                                                   |
+| -------------------------- | ----------------------------------------------------------------- |
+| Flight Controller Hardware | Freefly Custom Designed Skynode                                   |
+| Flight Controller Software | Auterion Enterprise PX4 (custom for Astro)                        |
+| Mission Control Software   | Auterion Mission Control                                          |
+| Online Fleet Management    | Auterion Suite                                                    |
+| Flight Modes               | Manual, Altitude Hold, Position Hold, Return, Autonomous Mission, |
+| Onboard Modules            | Cortex-A53 Computer, LTE                                          |
+| Connectivity               | Wifi, USB C, LTE (North America)                                  |
+| Supported Radios           | Herelink                                                          |
+| Supported GNSS             | L1/L2 bands for GPS, GLONASS, Beidou and Galileo                  |
 
 ## Radio Control
 
