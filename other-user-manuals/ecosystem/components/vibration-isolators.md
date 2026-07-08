@@ -22,6 +22,8 @@ There are several different isolator designs for Astro:
 
 Isolators can be configured for a variety of payloads by adjusting the stiffness (durometer) of the dampers. A good rule of thumb is if your payload is swinging too much the system needs more stiffness and if the payload is vibrating it needs less!
 
+#### Isolator Durometer Reference
+
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-10 131354.png" alt=""><figcaption><p>Which isolator should I use for my payload?</p></figcaption></figure>
 
 ## Astro Max Isolator
