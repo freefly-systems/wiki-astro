@@ -38,6 +38,7 @@
     * [Installing a SIM Card](maintenance/standard-maintenance-procedures/replacing-components/installing-a-sim-card.md)
   * [Calibration and Tuning](maintenance/standard-maintenance-procedures/calibration-and-tuning.md)
   * [Controller / Radio Binding](maintenance/standard-maintenance-procedures/controller-radio-binding.md)
+  * [SL8/Astro Battery Connectors](maintenance/standard-maintenance-procedures/sl8-astro-battery-connectors.md)
 * [Software Updates](maintenance/software-release-notes/README.md)
   * [Updating Firmware](maintenance/software-release-notes/software.md)
   * [Astro Software v2.2 - What's New](maintenance/software-release-notes/astro-software-v2.2-whats-new.md)
