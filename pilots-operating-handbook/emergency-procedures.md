@@ -1,3 +1,7 @@
+---
+icon: drone-front
+---
+
 # Flight Part 3 - Emergency / Advanced
 
 ## General Guidance
@@ -16,7 +20,7 @@ The likelihood of an emergency can be reduced substantially through [proper airc
 
 ### Return Mode
 
-Do not be over-reliant on [Return Mode](flight.md#return) in emergency situations. The cause of the emergency may degrade performance or disable Return Mode. For example, loss of GPS disables Return Mode.
+Do not be over-reliant on [Return Mode](operation.md#return) in emergency situations. The cause of the emergency may degrade performance or disable Return Mode. For example, loss of GPS disables Return Mode.
 
 {% hint style="warning" %}
 Depending on what Astro firmware version you're on, you may or may not be able to move sticks to interrupt Return Mode&#x20;
@@ -25,7 +29,7 @@ Before Astro version 1.4.6, moving the flight sticks on the controller will inte
 
 For Astro version 1.4.6-1.5.18, moving the flight sticks will not interrupt these modes.&#x20;
 
-In 1.6.14 and later this setting was re-introduced as an op-in setting that's disabled by default, and by default stick movements will not interrupt Return Mode
+In 1.6.14 and later this setting was re-introduced as an opt-in setting that's disabled by default, and by default stick movements will not interrupt Return Mode
 
 This change was made as a response to feedback that accidental stick movements were interrupting these flight modes erroneously. To change this behavior, you can toggle [Advanced Mode](https://freefly.gitbook.io/astro-public/astro/pilots-operating-handbook/software/auterion-mission-control/amc-vehicle-setup/advanced-vehicle-setup#activating-advanced-mode) and change the COM\_RC\_OVERRIDE parameter to 1 in Vehicle Setup.
 {% endhint %}
@@ -68,7 +72,7 @@ Landing the aircraft firmly will give the accelerometers and gyroscopes a suffic
 
 If an attempted landing is unsuccessful in Position and Altitude mode, land in Manual Mode.
 
-If an attempted landing is unsuccessful in Manual Mode, perform an [Emergency Stop](flight.md#emergency-stop) with the aircraft on the ground or as close as possible.
+If an attempted landing is unsuccessful in Manual Mode, perform an [Emergency Stop](operation.md#emergency-stop) with the aircraft on the ground or as close as possible.
 {% endtab %}
 
 {% tab title="GPS Loss" %}

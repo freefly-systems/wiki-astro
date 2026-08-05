@@ -1,4 +1,8 @@
-# ECOSYSTEM
+---
+icon: gears
+---
+
+# Ecosystem
 
 {% content-ref url="components/" %}
 [components](components/)

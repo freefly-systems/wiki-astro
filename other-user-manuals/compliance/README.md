@@ -1,8 +1,12 @@
+---
+icon: gavel
+---
+
 # Compliance
 
 ## Remote ID
 
-Freefly provided a no-cost software update for all Astro operators to enable FAA Remote ID compliance in North America with firmware v1.5 or later. Refer to [faa-remote-identification-rid.md](../ecosystem/faa-remote-identification-rid.md "mention")
+Freefly provided a no-cost software update for all Astro operators to enable FAA Remote ID compliance in North America with firmware v1.5 or later. Refer to the next section for more information: [faa-remote-identification-rid.md](faa-remote-identification-rid.md "mention")
 
 All new Astro ship with FAA Standard Remote ID enabled.
 

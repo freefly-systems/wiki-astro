@@ -28,7 +28,7 @@
 
 Definition: The amount that each image overlaps with the previous sequential image; effectively, you are taking pictures more frequently on each straightaway of your mission. \
 \
-Benefit: The higher the front overlap, the more consistent your resulting map will likely be, as the stitching software will have an easier time connecting the discreet images together.&#x20;
+Benefit: The higher the front overlap, the more consistent your resulting map will likely be, as the stitching software will have an easier time connecting the discrete images together.&#x20;
 
 Tradeoff: You will be taking more pictures, many of which are redundant to an extent. This takes up more storage and takes more time to process. \
 \

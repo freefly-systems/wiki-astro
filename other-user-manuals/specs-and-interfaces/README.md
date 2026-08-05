@@ -1,8 +1,9 @@
 ---
 description: How to integrate Astro intro your custom workflow
+icon: bolt
 ---
 
-# SPECS AND INTERFACES
+# Specs and Interfaces
 
 {% content-ref url="technical-specs.md" %}
 [technical-specs.md](technical-specs.md)
@@ -16,6 +17,6 @@ description: How to integrate Astro intro your custom workflow
 [drawings-and-cad.md](drawings-and-cad.md)
 {% endcontent-ref %}
 
-{% content-ref url="component-sourcing.md" %}
-[component-sourcing.md](component-sourcing.md)
+{% content-ref url="../compliance/" %}
+[compliance](../compliance/)
 {% endcontent-ref %}

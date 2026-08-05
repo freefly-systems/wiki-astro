@@ -1,3 +1,7 @@
+---
+icon: lightbulb
+---
+
 # Pro Tips and Limitations
 
 It is possible to operate Astro close to the limits of performance by maintaining awareness of the performance envelope, how the aircraft behaves if the limits are exceeded, and best practices for operating in harsh environments.
@@ -26,15 +30,19 @@ The purpose is to prevent tip-overs while landing but has the side effect of red
 
 ***
 
-## Continuous Flight
+## Continuous Operation
 
-If you have 8 SL8 batteries, 6 SL8 chargers, and electricity at the location of your flight, you can continuously charge 6 batteries at a time while flying Astro, allowing for uninterrupted flight for as long as you need. If you are flying without a payload, you will only need 6 batteries and 4 chargers.&#x20;
+With eight (8) SL8 batteries, six (6) SL8 chargers, and access to power at your flight location, you can keep Astro in continuous operation. Two batteries fly the aircraft while the remaining six charge, so a freshly charged set is always ready when you land. Swap the packs, take off again, and put the depleted set back on the chargers.
 
 {% hint style="warning" %}
-In hot conditions, you will likely need an additional 2 batteries, as it may take some time to cool the recently flown batteries to an acceptable charging temperature (50°C).&#x20;
+In hot conditions, you will likely need an additional two batteries, as it may take some time to cool the recently flown batteries to an acceptable charging temperature (below 50°C).&#x20;
 {% endhint %}
 
+For more information on batteries, click the page link below.
 
+{% content-ref url="../other-user-manuals/ecosystem/components/batteries.md" %}
+[batteries.md](../other-user-manuals/ecosystem/components/batteries.md)
+{% endcontent-ref %}
 
 ***
 
@@ -59,7 +67,7 @@ Both the Doodle and Herelink radio modules on Pilot Pro use two blade antennas t
 * Antennas should both point in the same direction.&#x20;
 * Antennas should point towards ground for best signal quality in most situations.
 
-<figure><img src="../../.gitbook/assets/Pilot Pro_Antenna Position_001.JPG" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pilot Pro_Antenna Position_001.JPG" alt="" width="375"><figcaption></figcaption></figure>
 
 #### **Herelink GCS (Legacy):**&#x20;
 
@@ -70,7 +78,8 @@ Herelink GCS has two types of antennas.&#x20;
 
 ### Interferences
 
-Range can be reduced by radio interference from other sources like wifi networks. Obstacles like trees and buildings in close proximity to the controller or Astro, as well as directly between the two, can dramatically reduce range.
+Usable range depends heavily on the RF environment. Radio interference from nearby transmitters operating in the same frequency band, such as WiFi access points, can reduce both range and link quality. Physical obstructions affect the signal as well, such as trees, buildings, and terrain near the controller, near the aircraft, or directly in the line of sight between them can reduce range\
+significantly.
 
 ### Multiple Aircraft
 
@@ -91,7 +100,7 @@ Avoid using high-power, low-frequency radio transmitters (such as the RFD 900) m
 
 ### Temperature
 
-![](<../../.gitbook/assets/Screen Shot 2021-08-02 at 10.31.34.png>)
+<img src="../.gitbook/assets/Screen Shot 2021-08-02 at 10.31.34.png" alt="" width="375">
 
 Astro can operate between -20 and 50 C. Position mode and survey flying are normal throughout the range. However, care is needed to operate at low and high temperatures.
 
@@ -106,36 +115,38 @@ At high temperatures, the limiting factors are motor and battery temperatures. A
 Cooling air is your friend. The motors get much more cooling air in forward flight than in a hover. Overheat errors may occur when hovering because there is less airflow, or when flying aggressively because heating increases with current.
 
 Batteries may require cooling before charging. Bring an extra set of batteries and chargers to enable continuous flying. If you connect batteries to the charger while cooling, they will automatically begin charging as soon as they have cooled sufficiently.
-
-Keep the equipment out of prolonged direct sunlight, especially the Herelink. Herelink will shut down if it overheats, and it does not give a warning.
 {% endtab %}
 
 {% tab title="Tips for operating in cold environments" %}
-At low temperatures, the battery cell temperature is the key limiting factor. When the cells themselves are below 10 °C (ambient air can be down to -20 °C), the built-in battery management system's (BMS) state of charge (SoC) algorithm has reduced accuracy. The SoC may decrease to zero suddenly. If this happens, [low battery failsafes](../emergency-procedures.md#low-battery) (RTL and Land) will be triggered, causing the aircraft to climb or descend suddenly.
+At low temperatures, the battery cell temperature is the key limiting factor. When the cells themselves are below 10 °C (ambient air can be down to -20 °C), the built-in battery management system's (BMS) state of charge (SoC) algorithm has reduced accuracy. The SoC may decrease to zero suddenly. If this happens, [low battery failsafes](emergency-procedures.md#low-battery) (RTL and Land) will be triggered, causing the aircraft to climb or descend suddenly.
 
 These failsafes can be overridden by selecting another flight mode (override by moving the sticks is not available during a failsafe). The battery will not cut off power output in the air, however low temperatures generally reduce capacity which will reduce flight time.
 
 If the batteries are 10 °C or warmer at the start of a flight, heating from discharge will keep them warm enough to fly.
 
-To keep batteries warm, charge them in a heated environment and store them in an insulated container (a cooler works well)​**In rare cases propellers can experience icing, this occurs when ice begins to form on the tips and underside of the blades due to temperature and humidity. This will cause the props to become unbalanced, increasing drag and reducing lift. Flying with iced blades can be dangerous and is not advised.**
+To keep batteries warm, charge them in a heated environment and store them in an insulated container (a cooler works well)​
+
+{% hint style="danger" %}
+In rare cases, propellers can experience icing. This occurs when ice begins to form on the tips and underside of the blades due to temperature and humidity. This will cause the props to become unbalanced, increasing drag and reducing lift. Flying with iced blades can be dangerous and is not advised.
+{% endhint %}
 {% endtab %}
 {% endtabs %}
 
-{% hint style="info" %}
-Keep the Herelink handset out of direct sunlight. It can operate at up to 50C ambient _if its plugged in for charging and in the shade._ \
+{% hint style="warning" %}
+Keep the legacy Herelink controller out of direct sunlight. It can operate at up to 50°C ambient _if it's plugged in for charging and in the shade._&#x20;
+
+\
+The legacy Herelink controller will shut down if the internal temperature increases over 55C, and it does not give a warning. Direct sunlight can increase the temperature of the Herelink beyond this limit very quickly.&#x20;
+
 \
 For the best performance in hot or cold weather, we recommend charging the Herelink during use. Under very hot or cold weather Herelink's battery performance can drop quickly and can cause it to shutdown.
-{% endhint %}
-
-{% hint style="warning" %}
-Herelink will shut down if the internal temperature increases over 55C, and it does not give a warning. Direct sunlight can increase the temperature of the Herelink beyond this limit very quickly.&#x20;
 {% endhint %}
 
 ### Wind
 
 Operating Astro at winds greater than 8-10m/s can be dangerous. Keep in mind that the wind speed at higher altitudes is typically much higher. In high wind, AMC will show a warning.
 
-Flying Astro is high wind is not advised. If the wind speed is a significant fraction of [Astro's top speed](https://freefly.gitbook.io/astro-public/astro/specs-and-interfaces/performance#flight-speeds), control authority will be diminished in all flight modes.
+Flying Astro in high wind is not advised. If the wind speed is a significant fraction of [Astro's top speed](https://freefly.gitbook.io/astro-public/astro/specs-and-interfaces/performance#flight-speeds), control authority will be diminished in all flight modes.
 
 When Astro is not flying, fold the props and install the propeller protectors. If the wind blows through open props, it can cause them to spin up dangerously.
 
@@ -167,17 +178,12 @@ If the two batteries powering Astro have a voltage difference of more than 2.0V,
 
 ## Magnetic Interference
 
-In a situation where there is a magnetic interference that is preventing the aircraft to figure out its heading before takeoff, you are presented with options:
+In a situation where there is a magnetic interference, you are presented with a few options:
 
-* Move away from any potential sources of magnetic interference, like metal or water. In most cases, moving the Astro a few feet away will allow it to get a better magnetic reading to figure out the heading, and position mode will become available for takeoff.&#x20;
+* Move away from any potential sources of magnetic interference, like metal. In most cases, moving the Astro a few feet away will allow it to get a better magnetic reading to figure out the heading, and position mode will become available for takeoff.&#x20;
+* Recalibrating sensors, away from magnetic interference.
 * Take off in altitude mode. Shortly after flying in altitude mode, GPS heading will be locked and you can then switch to position mode.
 
 {% hint style="warning" %}
 Be aware that flying in Altitude Mode does introduce additional risk. If the aircraft loses connection with the controller, it will not hold its horizontal position which may result in a crash if control is not re-established quickly. &#x20;
 {% endhint %}
-
-
-
-***
-
-.

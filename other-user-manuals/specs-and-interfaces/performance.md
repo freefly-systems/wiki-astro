@@ -58,7 +58,7 @@
 
 
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-07-03 at 2.07.06 PM.png" alt=""><figcaption><p>Astro Max (defeault)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-03 at 2.07.06 PM.png" alt=""><figcaption><p>Astro Max (Default)</p></figcaption></figure>
 
 
 

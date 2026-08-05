@@ -78,7 +78,7 @@ For each output, select an input source channel (i.e. [Herelink hardware button]
 {% endtab %}
 {% endtabs %}
 
-PWM output values (e.g. 1100 us) are controlled by these parameters (read more in the [PX4 Parameter Reference](https://dev.px4.io/master/en/advanced/parameter_reference.html)).
+PWM output values (e.g. 1100 us) are controlled by these parameters (read more in the [PX4 Parameter Reference](https://docs.px4.io/main/en/advanced_config/parameter_reference#parameter-reference)).
 
 | Parameter       | Function                                                                                                                                                    |
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |

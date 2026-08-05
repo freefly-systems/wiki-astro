@@ -5,7 +5,7 @@
 Freefly Systems developed an FAA compliant Remote ID solution for Astro.
 
 * For Astro operators who bought their Astro prior to the Remote ID implementation, Remote ID compliance can be achieved by a field software upgrade.&#x20;
-* New Astro's shipping after February 2024  come with standard Remote ID installed.
+* New Astros shipping after February 2024  come with standard Remote ID installed.
 
 
 

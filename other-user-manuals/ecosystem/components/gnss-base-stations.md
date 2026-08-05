@@ -7,30 +7,19 @@ description: >-
 
 # GNSS Base Stations
 
-## RTK
+## RTK and NTRIP
 
 The Astro and later versions of the Alta X come pre-integrated with a Freefly RTK unit. Just add a Freefly RTK GPS [ground station](https://store.freeflysystems.com/products/rtk-gps-ground-station) (sold separately) to enable centimeter-level positioning data.
 
 {% tabs %}
 {% tab title="Pilot Pro" %}
-Instructions for RTK with the Pilot Pro and Astro or Alta X can be found on our Pilot Pro wiki through the link below
+Instructions for RTK and NTRIP with the Pilot Pro and Astro or Alta X can be found on our Pilot Pro docs through the link below
 
 {% embed url="https://freefly.gitbook.io/pilot-pro-public/operating-handbook/ecosystem/rtk" %}
 {% endtab %}
 
 {% tab title="Herelink Controller" %}
-| Setup and Survey-in                                                                                                                                                                      |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Mount RTK unit on tripod                                                                                                                                                                 |
-| Connect RTK unit to PC via USB cable                                                                                                                                                     |
-| Open AMC on PC ([download here](https://suite.auterion.com/downloads))                                                                                                                   |
-| [Connect Herelink to PC ](pilot-handsets/#wifi)via the Herelink's wifi hotspot                                                                                                           |
-| If there is no telemetry in AMC even after connecting to the hotspot, change [UDP settings](https://freefly.gitbook.io/astro-public/astro/ecosystem/components/pilot-handsets#udp-link). |
-| Power on aircraft and keep aircraft stationary                                                                                                                                           |
-| Verify that RTK icon appears in top right of AMC PC, near GPS icon                                                                                                                       |
-| Wait for the RTK icon to turn white when survey-in is complete (\~180 seconds) (Click the icon to see detailed status)                                                                   |
-| Alternative: go to AMC settings and enter the coordinates of the antenna for even higher accuracy if known.                                                                              |
-| Fly!                                                                                                                                                                                     |
+<table data-search="false"><thead><tr><th>Setup and Survey-in</th></tr></thead><tbody><tr><td>Mount RTK unit on tripod </td></tr><tr><td>Connect RTK unit to PC via USB cable </td></tr><tr><td>Open AMC on PC (<a href="https://suite.auterion.com/downloads">download here</a>)</td></tr><tr><td><a href="pilot-handsets/#wifi">Connect Herelink to PC </a>via the Herelink's wifi hotspot</td></tr><tr><td>If there is no telemetry in AMC even after connecting to the hotspot, change <a href="https://freefly.gitbook.io/astro-public/astro/ecosystem/components/pilot-handsets#udp-link">UDP settings</a>.</td></tr><tr><td>Power on aircraft and keep aircraft stationary </td></tr><tr><td>Verify that RTK icon appears in top right of AMC PC, near GPS icon </td></tr><tr><td>Wait for the RTK icon to turn white when survey-in is complete (~180 seconds) (Click the icon to see detailed status)</td></tr><tr><td>Alternative: go to AMC settings and enter the coordinates of the antenna for even higher accuracy if known.</td></tr><tr><td>Fly!</td></tr></tbody></table>
 
 {% hint style="info" %}
 If the RTK ground unit is moved, repeat the survey-in.
@@ -49,24 +38,6 @@ Adjust accuracy and other settings in [Auterion Mission Control (AMC) RTK settin
 
 {% endtab %}
 {% endtabs %}
-
-
-
-## NTRIP
-
-With the Astro's LTE connectivity, you no longer need your own ground station to have increased accuracy on the Astro. The Astro can use cell connectivity to pull in corrections from existing ground stations in order to correct it's own GPS signal. \
-\
-The NTRIP app can be downloaded from the [Auterion Suite](https://suite.auterion.com/)\
-\
-For more information about the setup of your NTRIP provider, please refer to [Auterion's NTRIP App Documentation](https://auterion.gitbook.io/auterion-apps/ntrip-app)
-
-{% hint style="info" %}
-The Astro comes with a trial sim. For extended usage, you will need to [replace the SIM card](../../../maintenance/standard-maintenance-procedures/replacing-components/installing-a-sim-card.md) on the Astro with your own plan
-{% endhint %}
-
-{% hint style="info" %}
-Using NTRIP will require an NTRIP provider. NTRIP casters can be paid or free services. Check your local coverage to determine what provider is best for you
-{% endhint %}
 
 
 
@@ -126,7 +97,7 @@ Follow manual to enable recording either on boot or on demand. To download the d
 
 (More details coming soon)
 
-**Known Issue:** When you click Convert & Download, the Trimble crashes. You can only download without converting for now. Jeremy thinks it might be because of low storage space and reseting might help. Let's give it a shot.&#x20;
+**Known Issue:** When you click Convert & Download, the Trimble crashes. You can only download without converting for now. Jeremy thinks it might be because of low storage space and resetting might help.&#x20;
 
 ### Tersus Oscar
 

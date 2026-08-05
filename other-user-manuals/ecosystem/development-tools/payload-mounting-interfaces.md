@@ -24,8 +24,6 @@ This model contains the entire smart dovetail assembly. You are welcome and enco
 
 {% file src="../../../.gitbook/assets/840-00245-pcba-dovetail-passthrough-revC (1).zip" %}
 
-<table><thead><tr><th width="150">Revision</th><th width="302.14838659400976">Description</th><th>Date</th></tr></thead><tbody><tr><td>Alpha</td><td>Initial design release</td><td>11/12/2021</td></tr><tr><td>Beta</td><td>Complete model released</td><td>3/24/2022</td></tr><tr><td>Production</td><td>Available in store </td><td>6/17/2022</td></tr></tbody></table>
-
 
 
 ### Pinout
@@ -53,7 +51,7 @@ If you need camera trigger or capture feedback on the Payload Adaptor ZPD connec
 {% endhint %}
 
 {% hint style="info" %}
-UART TX and RX are labled as the TX and RX pins on the Astro itself. A device utilizing these will need to connect it's own TX to pin 6, and it's own RX to pin 4. This UART operates at 3.3v logic
+UART TX and RX are labeled as the TX and RX pins on the Astro itself. A device utilizing these will need to connect it's own TX to pin 6, and it's own RX to pin 4. This UART operates at 3.3v logic
 {% endhint %}
 
 ### Available Products
@@ -84,7 +82,7 @@ The Dovetail adapter and Plate have been tested up to 3kg
 
 ## Astro Vibration Isolator
 
-The [**Astro Vibration Isolator**](https://store.freeflysystems.com/products/astro-isolator) works best with most payloads. More info is availible here:&#x20;
+The [**Astro Vibration Isolator**](https://store.freeflysystems.com/products/astro-isolator) works best with most payloads. More info is available here:&#x20;
 
 {% content-ref url="../components/vibration-isolators.md" %}
 [vibration-isolators.md](../components/vibration-isolators.md)

@@ -2,7 +2,7 @@
 
 ## Pilot Pro Wiki
 
-For specific details regarding the Pilot Pro Controller, refer to for Pilot Pro Wiki here -> [https://freefly.gitbook.io/pilot-pro-public](https://freefly.gitbook.io/pilot-pro-public/)
+Pilot Pro has its documentation found here: [Pilot Pro](https://app.gitbook.com/s/WXREyAKYAeQJ4gfg2SPg/controller/pilot-pro "mention")
 
 
 

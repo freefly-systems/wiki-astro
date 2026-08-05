@@ -1,8 +1,12 @@
+---
+icon: building-columns
+---
+
 # Legal
 
 ## Disclaimer and Warning&#x20;
 
-Please read this disclaimer and warning carefully and review the Astro Aircraft Flight Manual (AFM) prior to flight. If you have any questions, please contact [support@freeflysystems.com](mailto:%20support@freeflysystems.com) prior to using the Astro. You can review the most current version of this manual on the [Astro Support Page](https://freeflysystems.com/support/astro-support).&#x20;
+Please read this disclaimer and warning carefully and review the Astro Aircraft Flight Manual (AFM) prior to flight. If you have any questions, please [contact us](https://freeflysystems.com/contact) prior to using the Astro.&#x20;
 
 By using Astro, you acknowledge that you have read, understand and agree to this disclaimer. You agree that you are solely responsible for your conduct while using Astro, and for any direct or indirect consequences that may result from its use. You agree to only use Astro for proper purposes that are in accordance with local and airspace rules and regulations.&#x20;
 
@@ -25,7 +29,7 @@ By using Astro, you acknowledge that you have read, understand and agree to this
 
 IN NO EVENT SHALL FREEFLY BE LIABLE TO BUYER FOR ANY INDIRECT, CONSEQUENTIAL, PUNITIVE, INCIDENTAL, OR SPECIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM THE USE OF ASTRO OR FROM LOSS OF USE, DATA OR PROFITS (HOWEVER CAUSED AND UNDER ANY THEORY OF LIABILITY), EVEN IF FREEFLY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN NO EVENT SHALL FREEFLY’S LIABILITY FOR A PRODUCT (WHETHER ASSERTED AS A TORT CLAIM, A CONTRACT CLAIM OR OTHERWISE) EXCEED THE AMOUNTS PAID TO FREEFLY FOR SUCH PRODUCT. NOTWITHSTANDING ANYTHING HEREIN, IN NO EVENT SHALL FREEFLY’S LIABILITY FOR ALL CLAIMS ARISING OUT OF OR RELATING TO THIS AGREEMENT EXCEED THE AMOUNTS PAID BY BUYER TO FREEFLY FOR PRODUCT IN THE LAST TWELVE (12) MONTHS. IN NO EVENT WILL FREEFLY BE LIABLE FOR COSTS OF PROCUREMENT OR SUBSTITUTE GOODS BY BUYER. THE LIMITATIONS SET FORTH HEREIN SHALL APPLY TO ALL LIABILITIES THAT MAY ARISE OUT OF THIRD-PARTY CLAIMS AGAINST BUYER. THESE LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY. Freefly shall not be liable for damages or injuries incurred directly or indirectly from the use of Astro including, but not limited to, the following situations:&#x20;
 
-* Failure of the operator to follow proper instructions and safety warnings found at www.freeflysystems.com.&#x20;
+* Failure of the operator to follow proper instructions and safety warnings found at [www.freeflysystems.com](https://www.freeflysystems.com)&#x20;
 * Failure of the operator to understand and operate the aircraft within the operating limitations described in this manual.&#x20;
 * Failure of the operator to follow onboard safety warnings while using Astro.&#x20;
 * Failure of the operator to follow and comply with local rules and regulations.&#x20;

@@ -1,8 +1,16 @@
+---
+icon: drone-front
+---
+
 # Flight Part 1 - Flight Modes
 
-Flight Modes
+### Flight Modes
 
 {% embed url="https://www.youtube.com/watch?v=vJHQdul398g" %}
+
+{% hint style="info" %}
+Note that this video features the legacy Herelink controller with the original Astro. However, the flight modes and their behavior are unchanged unless otherwise noted in this guide.&#x20;
+{% endhint %}
 
 Astro offers several flight modes with varying levels of assistance to the pilot.
 

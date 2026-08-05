@@ -1,41 +1,23 @@
+---
+icon: circle-question
+---
+
 # FAQ & Troubleshooting
 
 ## Known Issues and Solutions
 
-| Issue                                                                                     | Solution                                                                                                                                                                    |
-| ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Battery cells out of balance                                                              | Leave on the charger (under supervision) for about 8 hours                                                                                                                  |
-| Cannot control gimbal                                                                     | [Update Astro and Herelink firmware](https://freefly.gitbook.io/astro-public/astro/maintenance-manual/software)                                                             |
-| Astro drifts up/down while hovering                                                       | [Calibrate accelerometer](https://freefly.gitbook.io/astro-public/astro/maintenance-manual/calibration-and-tuning#sensor-calibration)                                       |
-| Cannot record video using the Sony a7R-IV, or "unable to write to card, check card speed" | [Install a faster SD card into the camera](https://freefly.gitbook.io/astro-public/astro/payloads/astro-mapping-payload/operating-handbook/normal-operation#video-workflow) |
-| Transfer mission from PC to Herelink                                                      | Upload to Astro using PC, download from Astro using Herelink                                                                                                                |
-| Can't connect laptop version of AMC to Astro                                              | Change the [UDP settings](https://freefly.gitbook.io/astro-public/astro/ecosystem/components/pilot-handsets#hotspot)                                                        |
-| Gimbal is limp with camera on                                                             | [Make sure that your Astro and Gimbal are on compatible firmware](/broken/pages/pVipTw2ochvzRocZAv9l#gimbal-baud-rate)                                                      |
-
-
-
-
-
-
+<table data-search="false"><thead><tr><th>Issue</th><th>Solution</th></tr></thead><tbody><tr><td>Battery cells out of balance</td><td>Leave on the charger (under supervision) for about 8 hours</td></tr><tr><td>Cannot control gimbal</td><td>Update Astro and controller. <br><a data-mention href="software-release-notes/">software-release-notes</a></td></tr><tr><td>Astro drifts up/down while hovering</td><td><a href="https://freefly.gitbook.io/astro-public/astro/maintenance-manual/calibration-and-tuning#sensor-calibration">Calibrate accelerometer</a></td></tr><tr><td>Cannot record video using the Sony a7R-IV, or "unable to write to card, check card speed"</td><td>Install a faster SD card into the camera</td></tr><tr><td>Can't connect laptop version of AMC to Astro</td><td>Change the <a href="https://freefly.gitbook.io/astro-public/astro/ecosystem/components/pilot-handsets#hotspot">UDP settings</a></td></tr><tr><td>Gimbal is limp with camera on</td><td><p>Ensure the Astro firmware and your gimbal firmware are both up to date.</p><p> <a data-mention href="software-release-notes/software.md">software.md</a></p></td></tr></tbody></table>
 
 
 
 ## FAQ
 
-| Question                             | Answer                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Is there a compatible LiDAR sensor?  | <p>Yes! Freefly offers the <a href="/broken/pages/quk55UDfps092T68yOw5">Flux Lidar payload</a> for super fast in-field processing. </p><p></p><p>There are also several 3rd party LiDAR payloads are available using our Smart Dovetail quick release or an adaptor:</p><p>-Emesent Hovermap</p><p>-GreenValley International X3C</p><p>-YellowScan Mapper, Mapper +, and Ultra</p><p>-Phoenix LiDAR Recon-A and Recon-XT</p><p>-Inertial Labs RESEPI</p><p>-ROCK Robotic R3PRO</p> |
-| Is there a thermal sensor for Astro? | Yes, see the [Thermal Pro Module](/broken/pages/7doATTKPBSjCHLQ4GXSf) for the LR1 Payload and the [Wiris Pro Payload](/broken/pages/SWbzoab49OlVarm4Mr1J)                                                                                                                                                                                                                                                                                                                           |
-
-
-
-
-
-
-
-
-
-
+| Question                                    | Answer                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Is there a compatible LiDAR sensor?         | <p>Yes! Freefly offers the <a href="https://app.gitbook.com/s/WXREyAKYAeQJ4gfg2SPg/payloads/flux-lidar">Flux Lidar payload </a>for super fast in-field processing. </p><p></p><p><a href="https://app.gitbook.com/s/WXREyAKYAeQJ4gfg2SPg/payloads/third-party-payloads/hovermap-st-x-and-st-lidar">Hovermap ST-X</a> offers autonomous flight in GPS-denied environments.</p><p></p><p><a href="https://freeflysystems.com/payloads">See all compatible LiDAR payloads</a>.</p> |
+| Is there a thermal sensor for Astro?        | <p>Yes, Freefly offers a <a href="https://app.gitbook.com/s/WXREyAKYAeQJ4gfg2SPg/payloads/lr1-payload/expansion-modules/lr1-thermal-module">thermal module upgrade</a> for the Sony LR1 mapping payload.<br><br><a href="https://freeflysystems.com/payloads">See all compatible thermal payloads.</a></p>                                                                                                                                                                      |
+| Where can I find my Astro's serial number?  | <p>The serial number can be found on the belly of the aircraft, near the vibration isolator.<br><img src="../.gitbook/assets/image (191).png" alt=""></p>                                                                                                                                                                                                                                                                                                                       |
+|                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
 
 

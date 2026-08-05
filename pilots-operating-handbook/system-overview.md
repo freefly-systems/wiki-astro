@@ -1,3 +1,7 @@
+---
+icon: book-open-lines
+---
+
 # System Overview
 
 <figure><img src="https://files.gitbook.com/v0/b/gitbook-legacy-files/o/assets%2F-LaNHxABbg20hfA0zTDQ%2F-MfEcI68nDcmsyyaPN7o%2F-MfEcbiwge3TIKh3m841%2FthreeQtrUnfolded.jpg?alt=media&#x26;token=5d01687a-c96d-4a51-b992-1f1958ca7538" alt=""><figcaption></figcaption></figure>
@@ -44,13 +48,5 @@ The Astro uses a multi-color status indicator LED to communicate aircraft status
 
 ### Status Indicator LED Color Codes
 
-| Color         | Meaning                | Detail                                                                                                                                                        |
-| ------------- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Solid Blue    | Armed, No GPS Lock     | Indicates vehicle has been armed and has no position lock from the GPS. Position, Mission and Return flight modes are not available.                          |
-| Pulsing Blue  | Disarmed, No GPS Lock  | Indicates vehicle is disarmed and has no position lock from the GPS. Position, Mission and RTL flight modes will not be available until GPS lock is acquired. |
-| Solid Green   | Armed, GPS Lock        | Indicates vehicle has been armed and has position lock from the GPS. All flight modes are available.                                                          |
-| Pulsing Green | Disarmed, GPS Lock     | Indicates vehicle is disarmed and has position lock from the GPS. All flight modes will be available.                                                         |
-| Solid Purple  | Failsafe Mode          | Indicates an error has been encountered during flight and the vehicle will activate the Failsafe Action (Return To Launch by default).                        |
-| Solid Amber   | Low Battery Warning    | Indicates a battery voltage below threshold.                                                                                                                  |
-| Flashing Red  | Error / Setup Required | Indicates an error, typically an issue with sensor calibration or autopilot configuration.                                                                    |
+<table data-search="false"><thead><tr><th>Color</th><th>Meaning</th><th>Detail</th></tr></thead><tbody><tr><td>Solid Blue</td><td>Armed, No GPS Lock</td><td>Indicates vehicle has been armed and has no position lock from the GPS. Position, Mission and Return flight modes are not available.</td></tr><tr><td>Pulsing Blue</td><td>Disarmed, No GPS Lock</td><td>Indicates vehicle is disarmed and has no position lock from the GPS. Position, Mission and RTL flight modes will not be available until GPS lock is acquired.</td></tr><tr><td>Solid Green</td><td>Armed, GPS Lock</td><td>Indicates vehicle has been armed and has position lock from the GPS. All flight modes are available.</td></tr><tr><td>Pulsing Green</td><td>Disarmed, GPS Lock</td><td>Indicates vehicle is disarmed and has position lock from the GPS. All flight modes will be available.</td></tr><tr><td>Solid Purple</td><td>Failsafe Mode</td><td>Indicates an error has been encountered during flight and the vehicle will activate the Failsafe Action (Return To Launch by default).</td></tr><tr><td>Solid Amber</td><td>Low Battery Warning</td><td>Indicates a battery voltage below threshold.</td></tr><tr><td>Flashing Red</td><td>Error / Setup Required</td><td>Indicates an error, typically an issue with sensor calibration or autopilot configuration. </td></tr></tbody></table>
 

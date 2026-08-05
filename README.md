@@ -2,4 +2,6 @@
 
 {% embed url="https://youtu.be/W2aNijm3UPw" %}
 
-Astro is a compact professional multi-rotor aircraft designed for enterprise and industrial applications. Astro is built on the success of the Alta family of aircraft and includes new technologies like Auterion Skynode and Freefly SuperLight Batteries.&#x20;
+The Freefly Astro is a compact professional multi-rotor built for enterprise and industrial work. Flown with the Pilot Pro controller, it runs an enterprise PX4-based flight stack and carries an onboard mission computer, RTK-capable GNSS, and swappable payloads.
+
+This guide will be continuously updated with the latest information.

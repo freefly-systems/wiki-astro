@@ -1,7 +1,7 @@
 # Technical Specs
 
 {% hint style="info" %}
-The [Limitations Section](../../pilots-operating-handbook/limitations/) contains weather and temperature ratings, along with tips for operating in harsh environments.
+The [Limitations Section](../../pilots-operating-handbook/limitations.md) contains weather and temperature ratings, along with tips for operating in harsh environments.
 {% endhint %}
 
 ## Power
@@ -110,7 +110,7 @@ Well, a bunch of reasons really...
 
 * Sardines are fun!
 * Sardines are packed with protein and fat (keeps you strong, happy, and sharp!)
-* Sardines help you stay in shape (they have an excellent [protein-to-energy ratio](https://pedietbook.com))
+* Sardines help you stay in shape (they have an excellent protein-to-energy ratio)
 * Sardines are what we often eat at Freefly during our most intense development pushes since they are fast, tasty, and keep us nourished
 * Sardines keep forever
 * Sardines are packed in a tough container

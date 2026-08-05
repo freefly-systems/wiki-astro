@@ -1,7 +1,11 @@
+---
+icon: drone-front
+---
+
 # Flight Part 2 - Operation
 
 {% hint style="warning" %}
-Make sure you understand Astro's [Emergency Procedures](emergency-procedures.md) and understand how to operate the drone in [Manual Mode](flight-part-1-flight-modes.md#manual) before taking flight.&#x20;
+Make sure you understand Astro's [Emergency Procedures](emergency-procedures.md) and understand how to operate the drone in [Manual Mode](flight-modes.md#manual) before taking flight.&#x20;
 {% endhint %}
 
 ## Astro Flight Checklist
@@ -39,7 +43,7 @@ Pilot Pro will automatically open the Pilot Pro App. Once the Astro is running a
 {% endhint %}
 {% endtab %}
 
-{% tab title="Herelink Transmitter " %}
+{% tab title="Legacy Herelink" %}
 Press and hold the power button below the screen until you see the Herelink logo appear
 {% endtab %}
 {% endtabs %}
@@ -53,7 +57,7 @@ How to power the Astro
 The Astro can be powered with either one or two batteries. One battery will put the Astro into Bench Mode to prevent arm for benchtop operations, and two batteries will allow for flight
 
 {% hint style="warning" %}
-Bench Mode: Astro will only arm (i.e. spin the motors) if 2 batteries are installed. When powering Astro for non-flying purposes (e.g. benchtop testing), connect only one battery.
+Bench Mode: Astro will only arm (i.e. spin the motors) if 2 batteries are installed. When powering Astro for non-flying purposes (e.g. bench testing), connect only one battery.
 
 Bench mode is not a substitute for the absolute safety of removing propellers.
 {% endhint %}
@@ -62,9 +66,25 @@ To power on the Astro, connect at least one SL8 battery by sliding it along the 
 
 ### Checking Battery Levels
 
+{% tabs %}
+{% tab title="First Tab" %}
+With Pilot Pro, AMC will show the Astro's current battery levels. Tap on the battery icon for more information, such as remaining flight time.&#x20;
+
+<figure><img src="../.gitbook/assets/amc_battery_levels.jpg" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+The battery level for the RC will almost always report 100% at all times, because the Pilot Pro keeps the tablet fully charged. &#x20;
+{% endhint %}
+{% endtab %}
+
+{% tab title="Legacy Herelink" %}
 Once the transmitter and Astro are connected, the AMC app indicates Astro's battery level and the battery level of the handset in the status bar.
 
 ![Where to find Astro and Handset battery levels in AMC](<../.gitbook/assets/image (52).png>)
+{% endtab %}
+{% endtabs %}
+
+
 
 ### Issues Preventing Arming
 
@@ -72,7 +92,7 @@ You may occasionally encounter issues that will prevent Astro from arming:&#x20;
 
 #### Compass Cal
 
-If AMC asks you to calibrate the compass and won't allow you to take off, follow the [instuctions to recalibrate sensors](../maintenance/standard-maintenance-procedures/calibration-and-tuning.md#sensor-calibration) in an area without significant magnetic interference (far from large metal structures or magnetic/electric installations).&#x20;
+If AMC asks you to calibrate the compass and won't allow you to take off, follow the [instructions to recalibrate sensors](../maintenance/standard-maintenance-procedures/calibration-and-tuning.md#sensor-calibration) in an area without significant magnetic interference (far from large metal structures or magnetic/electric installations).&#x20;
 
 #### Everything else&#x20;
 

@@ -4,15 +4,7 @@
 
 The Freefly Systems Astro has been approved by the Defense Innovation Unit and was added to the [Blue sUAS List](https://www.diu.mil/blue-suas-2#AltaX). Freefly has sold a variety of different [Astro](https://store.freeflysystems.com/collections/astro) configurations, and their Blue status is listed below:
 
-| Aircraft                                                                                                  | Blue Compliant | Hand Controller | Radio    |
-| --------------------------------------------------------------------------------------------------------- | -------------- | --------------- | -------- |
-| Astro                                                                                                     | N              | Herelink GCS    | Herelink |
-| Astro                                                                                                     | N              | Pilot Pro       | Herelink |
-| Astro (NDAA/Blue)                                                                                         | Y              | Pilot Pro       | Doodle   |
-| Astro Prime                                                                                               | N              | Pilot Pro       | Herelink |
-| Astro Prime (NDAA/Blue)                                                                                   | Y              | Pilot Pro       | Doodle   |
-| [Astro Max](https://store.freeflysystems.com/collections/astro/products/astro-max)                        | N              | Pilot Pro       | Herelink |
-| [Astro Max (NDAA/Blue)](https://store.freeflysystems.com/collections/astro/products/astro-max-ndaa-blue)  | Y              | Pilot Pro       | Doodle   |
+<table data-search="false"><thead><tr><th>Aircraft</th><th>Blue Compliant</th><th>Hand Controller</th><th>Radio</th></tr></thead><tbody><tr><td>Astro </td><td>N</td><td>Herelink GCS</td><td>Herelink</td></tr><tr><td>Astro</td><td>N</td><td>Pilot Pro</td><td>Herelink</td></tr><tr><td>Astro (NDAA/Blue)</td><td>Y</td><td>Pilot Pro</td><td>Doodle</td></tr><tr><td>Astro Prime</td><td>N</td><td>Pilot Pro</td><td>Herelink</td></tr><tr><td>Astro Prime (NDAA/Blue)</td><td>Y</td><td>Pilot Pro</td><td>Doodle</td></tr><tr><td><a href="https://store.freeflysystems.com/collections/astro/products/astro-max">Astro Max</a></td><td>N</td><td>Pilot Pro</td><td>Herelink</td></tr><tr><td><a href="https://store.freeflysystems.com/collections/astro/products/astro-max-ndaa-blue">Astro Max (NDAA/Blue)</a> </td><td>Y</td><td>Pilot Pro</td><td>Doodle</td></tr></tbody></table>
 
 Part 950-00142 Astro (NDAA/Blue) Package conforms to the exact Authority to Operate (ATO) configuration approved by DIU. This aerial system consists of 3 main components: Astro, Pilot Pro, and Doodle Labs Radios.
 
@@ -120,4 +112,4 @@ Astro (NDAA/Blue) variant ships with very strict security requirements. Users ne
 ## FAQ
 
 * Does the Astro (NDAA/Blue) variant ship with Remote ID?
-  * All Astro variants, including Blue/NDAA and Herelink variants ships with RemoteID enabled.
+  * All Astro variants, including Blue/NDAA and Herelink variants ships with Remote ID enabled.
