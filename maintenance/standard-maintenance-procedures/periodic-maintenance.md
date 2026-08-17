@@ -12,7 +12,7 @@ Before performing any maintenance, ensure that Astro is not connected to any pow
 
 ### Cleaning
 
-Keep your aircraft clean of dust and debris after each use- this will ensure that moving parts are not damaged/warn/jammed and also helps prevent and contamination from hiding structural damage that must be identified during visual preflight inspections.
+Keep your aircraft free of dust and debris after each use. This prevents moving parts from becoming damaged, worn, or jammed. It also prevents contamination from concealing structural damage during visual preflight inspections.
 
 Clean Astro's exterior with a non-abrasive soft cloth, microfiber towel or similar with a plastic-safe soap or detergent. Graduate the solvent potency when removing contamination, as shown below:
 
@@ -27,12 +27,12 @@ Avoid anything that has bleach in it, or aggressive solvents like Acetone. If op
 
 Always follow the preflight checklist items to ensure that each flight is safe and achieves the mission goals.
 
-Astro is rated to 1500 flight hours! If an item is not specifically listed under any preventative maintenance schedule below, then the item is rated for the lifetime of the aircraft. This does include all aircraft electronics and motors.
+Astro is rated for 1,500 flight hours. Items not listed in a preventative maintenance schedule have a service life equal to the aircraft’s lifetime. This includes all aircraft electronics and motors.
 
 At any point if you are concerned about something on the aircraft you can contact Freefly Support or purchase a Preventative Maintenance Checkup.
 
 {% hint style="warning" %}
-Note- it is key to keep both your aircraft and controller firmware up to date. Review the Software Release Notes or review the software updates page in the Auterion Suite to maintain your vehicle firmware.
+Note: it is key to keep both your aircraft and controller firmware up to date. See: [Software Release Notes](../software-release-notes/)
 {% endhint %}
 
 ### PM1: Every Flight
@@ -54,7 +54,7 @@ _In addition to phase PM1:_
 * Vibration Isolators:
   * Visually check for any cracks, gel leaks, visible stretching. Replace as necessary with spare parts
 * Propeller blade washers (between blade and hub):
-  * Visually check if they are present and not severely deformed. Replace as necessary with with spare parts
+  * Verify that each washer is present and not severely deformed. Replace it as needed with a spare part.
 * Inspect Landing Gear
   * Look for: Loose hinges, Hinge pin migration, no longer latching, any visible cracks or damage
 
@@ -67,12 +67,12 @@ _In addition to phase PM1:_
 
 **Check Propeller Tension**
 
-* Propeller tension is within acceptable tightness range (not clamping the propeller to tight or too loose on the propeller)
+* Verify that propeller tension is within the acceptable range. The propeller must not be clamped too tightly or too loosely.
 
 **Verify Boom Latch Tightness**
 
 * Verify each boom fully latches
-* The safety hinge has a solid over-center force&#x20;
+* The safety hinge has a solid over-center force
 * The hinge latch fully seats behind the latching post
 * If the hinge does not have enough tension, use a driver to adjust the hinge set screw to increase the latch tension
 
@@ -90,15 +90,13 @@ _In addition to phase PM1:_
 
 _In addition to phases PM1 and PM2:_
 
-**Inspect all fastener locations to verify fasteners are present, not damaged, and are not loose.**&#x20;
+**Inspect all fastener locations to verify fasteners are present, not damaged, and are not loose.**
 
 Check the tightness of the following fasteners to verify no loose fasteners or use a torque stripe/seal to ensure bolts have not moved.
 
 To check fasteners, apply a slight tightening torque (Clockwise direction) to each fastener on the chassis using the supplied hex drivers. The fasteners should not slip. Do not try to tighten the fastener, only check if it is loose
 
 * If a fastener does slip, tighten it using the methods described in the "Replacing Components - Fastener Specifications" section. Do not apply additional thread locking compound unless the fastener has repeatedly come loose.
-
-
 
 #### Items that need tightness verified (ensure they have not worked loose):
 
@@ -112,7 +110,7 @@ To check fasteners, apply a slight tightening torque (Clockwise direction) to ea
 * Landing Gear bolts
 * Any payload fasteners
 
-### PM5: Every 750 Flight Hours&#x20;
+### PM5: Every 750 Flight Hours
 
 * Freefly recommends to perform this maintenance every year even if the aircraft has not hit 750 flight hours, especially if the aircraft has missed other PM intervals or if the drone operates in harsh or abusive conditions
 * Send Astro in for a Freefly Service Inspection and Overhaul
@@ -132,7 +130,7 @@ To check fasteners, apply a slight tightening torque (Clockwise direction) to ea
 
 ## What to do if an Inspection Fails?
 
-First step is to evaluate if the problem can be fixed- Things that can be fixed by the user typically are:
+The first step is to determine whether you can fix the problem. Users can typically resolve the following issues:
 
 * Dirty or contaminated hardware
 * Loose fasteners (Ensure you have the correct type of Loctite Threadlocker)
@@ -141,7 +139,4 @@ First step is to evaluate if the problem can be fixed- Things that can be fixed 
 
 If you have a failure and cannot fix using our general guidelines or the spare parts provided in the kit or on the store, please reach out to support@freeflysystems.com or [submit a direct ticket](https://freeflysystems.com/contact) for any questions, specific replacement needs or issues! We are here to help you get safely and quickly back into the air!
 
-If you need to purchase spare or replacement parts, please go to [store.freeflysystems.com](http://store.freeflysystems.com) to purchase our standard parts.&#x20;
-
-
-
+If you need to purchase spare or replacement parts, please go to [store.freeflysystems.com](http://store.freeflysystems.com) to purchase our standard parts.
