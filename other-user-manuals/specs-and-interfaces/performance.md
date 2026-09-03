@@ -71,20 +71,23 @@
 * **What it is**: A Pilot Pro App feature that enables safe Astro Max operation at high altitudes (up to 15,000 ft / 4,500 m). Astro Max may feel sluggish or have reduced control authority when flying in mountainous terrain or high-density-altitude conditions. This mode increases the motor PWM limits to maintain adequate thrust-to-weight ratio for reliable flight performance.
 *   **How to use it:**
 
-    1\. Open the Pilot Pro App and connect to Astro Max (not available on original Astro with F45 motors).
+    1\. Open the Pilot Pro App and connect to Astro Max (not available on original Astro with F45 motors).<br>
 
-    2\. Go to High Altitude Mode screen.
+    2\. Navigate to Vehicle Applications, and enable vehicle applications. This needs to be toggled every time the Astro reboots.
 
-    3\. Toggle High Altitude Mode ON before flight at high altitude.
+    <div><figure><img src="../../.gitbook/assets/Screenshot_20260903_114105_Pilot Pro App.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Screenshot_20260903_114109_Pilot Pro App.jpg" alt=""><figcaption></figcaption></figure></div>
 
-    4\. The app displays a real-time thrust-to-weight estimator to confirm adequate performance margins
+    \
+    3\. Now that vehicle apps have been toggled on, you will have a new menu item available, called High Altitude Mode. Toggle High Altitude Mode ON before flight at high altitude.<br>
+
+    4\. The app displays a real-time thrust-to-weight estimator to confirm adequate performance margins<br>
 
     5\. Toggle OFF when returning to normal altitudes.
 
 <div data-full-width="true"><figure><img src="../../.gitbook/assets/high alt mode.jpg" alt="" width="480"><figcaption></figcaption></figure></div>
 
 * **Requirements:**
-  * Astro Max (not base Astro F45)
+  * Astro Max. Legacy Astros with F45 motors are **not** compatible.&#x20;
   * Pilot Pro App v2.3 or later
   * Astro firmware v2.0.19+
   * Fly in Position Mode with default tuning
